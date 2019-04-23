@@ -13,45 +13,104 @@ Description: Pwns In-app purchases on iOS 5.1.1 - 7.1 (works with developer serv
 Author: anondev
 Name: LocalIAPStore
 
-Package: com.exile90.icleanerpro
-Version: 7.4.4
+Package: com.abcydia.conditionalwifi3
+Version: 1.0.0
 Architecture: iphoneos-arm
-Maintainer: Ivano Bilenchi <support@ib-soft.net>
-Pre-Depends: apt, findutils, shell-cmds
-Conflicts: org.altervista.exilecom.icleaner
-Replaces: org.altervista.exilecom.icleaner
-Filename: debs/iCleanerPro_7.4.4.deb
-Size: 2565126
-MD5sum: 047bd93b8bd5bbf477022a17280b7a43
-SHA1: e1bf709bf01f44940dcb42ded9c9939e8cdd6c01
-SHA256: 2b2a6230c5271b2b5dd87597eaa36c4a1db06202eb81a553c09cea3a7087d7e0
-Section: Utilities
-Homepage: http://ib-soft.net/icleaner
-Description: The ultimate iPhone, iPod and iPad system cleaner & optimizer
-Author: Ivano Bilenchi <support@ib-soft.net>
-Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
-Icon: file:///Applications/iCleaner.app/Icon.png
-Name: iCleaner Pro
+Maintainer: WZteam <admin@abcydia.com>
+Depends: mobilesubstrate
+Filename: debs/com.abcydia.conditionalwifi3_1.0.0.deb
+Size: 41502
+MD5sum: caafa2c57d23dabd4bf130826e0bb69f
+SHA1: 56d558cf60270d6c34f1374dacb4870bff96b83e
+SHA256: 5dac0bc96e0b49f34685ba2476d6e1b0dc6dee88f8008cc9f5388107cad1845d
+Section: Tweaks
+Author: iOS Creatix
+Name: ConditionalWiFi3 WiFi设置
+Sponsor: ABCydia <http://www.abcydia.com>
 
-Package: eu.heinelt.ifile
-Version: 2.2.0-1
+Package: com.abcydia.conditionalwifi4
+Version: 1.0.0
 Architecture: iphoneos-arm
-Maintainer: Carsten Heinelt <ifile@iphone.heinelt.eu>
-Installed-Size: 20224
-Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
-Filename: debs/ifile_2.2.0-1.deb
-Size: 9746924
-MD5sum: ddc9167327952ca9c14c51e3163faa55
-SHA1: a54690566d5dd00a033bf5cb8b8bdd6a9b5d7750
-SHA256: 5f9ee94830915aaf0688993a46cecc3e1bfd1df8ad10d997c7e8d15975dd7b62
-Section: System
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ifileData
-Description: A File Manager and Viewer. iFile is a file manager runnning under user root. It allows fast navigation through the iPhone file system. It allows direct viewing of files of various types, e.g. movies, sound, text, HTML, Microsoft types, PDF, ZIP. For PDF files direct jumping to pages is possible. ZIP packing and unpacking is also supported. Files can be sent as email attachments. Text files and property lists can be edited. Folders and files can be bookmarked. In addition, files can be uploaded and downloaded from iFile's built-in web server.
-Tag: purpose::uikit, cydia::commercial
-Author: Carsten Heinelt <ifile@iphone.heinelt.eu>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ifileData
-Dev: carsten
-Name: iFile
+Maintainer: WZteam <admin@abcydia.com>
+Depends: mobilesubstrate
+Filename: debs/com.abcydia.conditionalwifi4_1.0.0.deb
+Size: 41704
+MD5sum: cbc547a83172ac13295a032727bd09c4
+SHA1: 5c6e32d9b38e3ebc01df61a207c2f6592b899b7d
+SHA256: 0e047f93f49c8f2bf0e6073525d2a52cde5507da1b7f9dc1ef7037b4449c5133
+Section: Tweaks
+Description: 设置 App WiFi接入限制
+Author: ATWiiks
+Name: ConditionalWiFi4 WiFi设置
+Sponsor: ABCydia <http://www.abcydia.com>
+
+Package: com.cemck.killx
+Version: 0.1.1-beta
+Architecture: iphoneos-arm
+Maintainer: Cem K
+Installed-Size: 104
+Depends: mobilesubstrate
+Filename: debs/com.cemck.killx_0.1.1-beta.deb
+Size: 6110
+MD5sum: c59452a0f64216aa98ade5e84cfab040
+SHA1: 4d5b6022c13cefe5b2a57fafc5b7f4314501010b
+SHA256: c61161ed46cf1578fd515753f2e68295ff6610aba36186689c27b80fb52f9537
+Section: Tweaks
+Description: One swipe to kill them all!
+            Swipe down app switcher cards, to kill all apps.
+Author: Cem K
+Depiction: https://cemck.github.io/repo/depictions/?p=com.cemck.killx
+Name: KillX
+
+Package: com.julioverne.cracktool2
+Version: 2.3~beta9
+Architecture: iphoneos-arm
+Maintainer: Julio
+Depends: ldid (>= 1:1.2.1), sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
+Filename: debs/com.julioverne.cracktool2_2.3~beta9_iphoneos-arm.deb
+Size: 432216
+MD5sum: b6232b142ca7f8a19a7bcd726a2aedb3
+SHA1: 34e60cb540b16677387a59b8ab3002f6c0fb37cf
+SHA256: d35ec02515f76976e332e77d9eb3e7559f23f7f227a018a7fcd249c82c629f66
+Section: Utilities
+Homepage: http://twitter.com/ijulioverne
+Description: Crack Tweaks on one click
+Author: julioverne
+Name: CrackTool2
+
+Package: com.julioverne.cydown
+Version: 6.9.7
+Architecture: iphoneos-arm
+Maintainer: Julio
+Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
+Filename: debs/com.julioverne.cydown_6.9.7_iphoneos-arm.deb
+Size: 1085390
+MD5sum: 7e923c276b894da812f3e775df72ffb7
+SHA1: 20784e92651d049dbed0f3c4ccd5f6cf0b20bd17
+SHA256: 14cf3ce759e0820b955b65026445ad6bb761f2c95e5830996874b1a2f855163d
+Section: Tweaks
+Homepage: http://twitter.com/ijulioverne
+Description: Cydia Download Manager & Extra Features!
+Author: julioverne <julioverne@me.com>
+Depiction: http://julio.xarold.com/files-deb/cydown.html
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
+Name: CyDown
+
+Package: com.ps.letmeblock
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate, firmware (>= 12.0)
+Filename: debs/com.ps.letmeblock_0.0.1_iphoneos-arm.deb
+Size: 1982
+MD5sum: 94c19760c8ac9cc1df3ec34bde433083
+SHA1: ac743f1fc7c6cfbeab7b49c8c8d0f1b62b75fad4
+SHA256: 0bcf46aa72f3c91444780bcbfbeabcdf9217e5f718691111fa5927d31857ef40
+Section: Tweaks
+Description: Make mDNSResponder care about /etc/hosts
+Author: PoomSmart
+Name: LetMeBlock
 
 Package: kuaidial-beta
 Version: 0.3.0a4-44
@@ -69,4 +128,79 @@ Priority: optional
 Description: adds useful functions to Phone app
 Author: SpikeLin <linspike@gmail.com>
 Name: KuaiDial
+
+Package: mobilesubstrate
+Version: 0.9.7032
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: com.saurik.substrate.safemode
+Conflicts: me.devbug.msreloadfix, com.r3pwn.startsubstrate, com.ragemasta.bootstrap
+Breaks: uikittools (<< 1.1.1), com.mywi4 (<= 5.03.2), com.phoenix.pandoracontrols (<= 1.1.0-1), com.intelliborn.intelliscreenx (<= 1.0.110), com.evad3rs.evasi0n7 (<< 0.2)
+Replaces: cycript (<= 0.9.594)
+Filename: debs/mobilesubstrate_0.9.7032_iphoneos-arm.deb
+Size: 1705510
+MD5sum: fd90202a0a0507f5e2c6bd315ea4efed
+SHA1: e16797cad287174b2d0084b160b1b978af123f0d
+SHA256: 2207604662e91507cda34924cc4a38e112a21c2666ef4cdac87f5ae2a86d706f
+Section: System
+Priority: optional
+Description: powerful code insertion platform
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/mobilesubstrate/
+Name: Cydia Substrate
+
+Package: signing-certificate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: None
+Installed-Size: 12
+Depends: jailbreak-resources (>=1.0~b4)
+Conflicts: jailbreak-resources (<<1.0~b4)
+Filename: debs/signing-certificate_0.0.1_iphoneos-arm.deb
+Size: 6236
+MD5sum: 9a8519c8a43e4a49997269d1c63bdd0a
+SHA1: 1712974f78abad3350252068962ec4062538d232
+SHA256: aea04fee142127d2972aecc33a5402e7d9d8ad7f97cc93be5aab3d02a5a67f39
+Section: System
+Description: A Certificate to sign things with
+Author: None
+Name: Signing Certificate
+
+Package: trustinjector
+Version: 0.4~b3
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 92
+Conflicts: science.xnu.injector
+Replaces: science.xnu.injector
+Provides: trustinjector, science.xnu.injector
+Filename: debs/trustinjector_0.4~b3_iphoneos-arm.deb
+Size: 15940
+MD5sum: 9c136360fadb3a848bace3f25100d240
+SHA1: 44a2bc13e44a1ff2dd8e4c9c08b55005c37af04f
+SHA256: 9652370f81bfa5fbc0f9128d73919536028bbaff79c49d61558e3906d83ff37b
+Section: System
+Description: Inject files to kernel trust cache
+Tag: role::hacker
+Author: Sam Bingner <maintainer@sbdhi.com>
+Name: Trust Cache Injector
+
+Package: uikittools
+Version: 1.1.13-5
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 1064
+Depends: coreutils-bin
+Filename: debs/uikittools_1.1.13-5_iphoneos-arm.deb
+Size: 24894
+MD5sum: 40a82f80b29036decf380d6519b35c8a
+SHA1: 1a68695b482831fce32ce6f8326beaea4fa6d330
+SHA256: 4410adcfe376b62467ee0ae68227885021c12852b17f33a384e699e8fd83f009
+Section: Utilities
+Priority: optional
+Homepage: http://tukaani.org/lzma/
+Description: UIKit/GraphicsServices command line access
+Depiction: http://cydia.saurik.com/info/uikittools/
+Name: UIKit Tools
 
