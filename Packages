@@ -1,3 +1,17 @@
+Package: TouGBao.QQMusicDeb2
+Version: 0.1-1
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/QQMusicCrack.deb
+Size: 34386
+MD5sum: 11dda76034a9e1638ed34fa18ec77dc2
+SHA1: f9a032c96b0b28a3c8be8c2e96550aedc18b18fd
+SHA256: 2b9ac312fe095477fc73fe044e14c3e220997f5c8543c0d880198a8c773c3bb0
+Section: System
+Priority: optional
+Author: TouGBao
+Name: QQMusicDeb2
+
 Package: anondev.LocalIAPStore
 Version: 1.4-1
 Architecture: iphoneos-arm
@@ -12,6 +26,30 @@ Priority: optional
 Description: Pwns In-app purchases on iOS 5.1.1 - 7.1 (works with developer servers,in-appstore.com DNS needed). 64bit compatible
 Author: anondev
 Name: LocalIAPStore
+
+Package: app.weiphone.cn.tinyapps.xgpspro
+Version: 1.9
+Architecture: iphoneos-arm
+Essential: no
+Maintainer: Feng.com <support@office.feng.com>
+Installed-Size: 6911
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000)
+Filename: debs/xgpspro_1.9_iphoneos-arm.deb
+Size: 1726700
+MD5sum: 614ad46e570f3918b95338b10648c6b1
+SHA1: 29991a1b8932b1f5dba13c8c07e9c2d0828c1dab
+SHA256: 37e6da49fc88b6738b9460a15e6064f99ff508a5e93f78b0e4ba53c9c08415fd
+Section: [威锋源-Utility]
+Priority: standard
+Homepage: http://apt.so/index.php?r=read&id=56623f4de963464a798b45f8
+Description: 破解方法安装icleaner pro 手机Hosts文件添加如下内容： 127.0.0.1 oc.umeng.com 127.0.0.1 oc.umeng.co 127.0.0.1 au.umeng.com 127.0.0.1 au.umeng.co 127.0.0.1 alog.umeng.com 127.0.0.1 alog.umeng.co 打开icleaner pro，依次点击进入左下角的“加号”图标—设置文件，然后删除如下文件：85819_net(otrlocation.app.85819.net.plist)； ios_OTRLocation(net.85819.ios.OTRLocation.plist)； 定位修改器(cn.tinyapps.XGPSPRo.plist)然后注销手机，Over，Enjoy it！^_^ 欢迎 Follow Twitter：@sunshaoan，Hangouts：sunshaoan[at]gmail.com ^_^ ——教程源自网络
+Tag: role::enduser
+Author: Feng.com<support@office.feng.com>
+Depiction: http://apt.so/index.php?r=cydia&id=56623f4de963464a798b45f8
+Dev: shengwen
+Icon: file:///Applications/XGPSPro.app/Icon.png
+Name: Fake GPS Pro(定位修改器) V1.9
+Sponsor: Feng.com <http://www.feng.com>
 
 Package: com.abcydia.conditionalwifi3
 Version: 1.0.0
@@ -111,6 +149,27 @@ Section: Tweaks
 Description: Make mDNSResponder care about /etc/hosts
 Author: PoomSmart
 Name: LetMeBlock
+
+Package: com.rbt.batterylife
+Version: 1.6.14
+Architecture: iphoneos-arm
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Depends: firmware (>= 6.0), mobilesubstrate, preferenceloader
+Conflicts: BatteryLife
+Replaces: BatteryLife
+Filename: debs/com.rbt.batterylife_1.6.14_iphoneos-arm.deb
+Size: 3078590
+MD5sum: dab8654ae3c6fe594e24200a69146dbe
+SHA1: 96244c096bff52a42ae231cc143b856a319816c6
+SHA256: cac558cfab50f6ff60ace1a25b965843bc084a8ecd2c4c6fd92abe8ef766c0da
+Section: Utilities
+Priority: extra
+Homepage: http://modmyi.com/info/batterylife.php
+Description: Displays useful information about your device's battery health
+Author: rbt <rbt@rtapps.de>
+Depiction: http://modmyi.com/info/batterylife.d.php
+Name: BatteryLife
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
 
 Package: kuaidial-beta
 Version: 0.3.0a4-44
