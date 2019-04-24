@@ -2,7 +2,7 @@ Package: TouGBao.QQMusicDeb
 Version: 0.1-1
 Architecture: iphoneos-arm
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/QQMusicCrack.deb
+Filename: debs/QQMusic.deb
 Size: 34226
 MD5sum: 0e2910cb4bb956ecc71db75fbc06b1c2
 SHA1: 52d9e7ae0bb35a2943597383020b8eae498fa1d5
@@ -17,7 +17,7 @@ Package: anondev.LocalIAPStore
 Version: 1.4-1
 Architecture: iphoneos-arm
 Depends: firmware (>= 5.1.1), mobilesubstrate, preferenceloader
-Filename: debs/localiapstore_1.4-1cn.deb
+Filename: debs/localiapstore.deb
 Size: 71046
 MD5sum: 01ed4dbbe69c4cd8d024ca4e0e2cc533
 SHA1: 482135df3e9d9d63e184e76ca47f30e7979b4cdd
@@ -35,7 +35,7 @@ Maintainer: Victoys
 Depends: firmware (>= 6.0), mobilesubstrate, preferenceloader
 Conflicts: BatteryLife
 Replaces: BatteryLife
-Filename: debs/batterylife_1.6.14_iphoneos-arm.deb
+Filename: debs/batterylife.deb
 Size: 3078498
 MD5sum: b29268803cca4124dffc0dbd25a8452a
 SHA1: 0df50d262770d0409c1799fb937c9348d81b8638
@@ -52,7 +52,7 @@ Architecture: iphoneos-arm
 Maintainer: Cem K
 Installed-Size: 104
 Depends: mobilesubstrate
-Filename: debs/com.cemck.killx_0.1.1-beta.deb
+Filename: debs/killx.deb
 Size: 8324
 MD5sum: 103edbe0b35214543c41e66c0f68afd8
 SHA1: 2b0af331cbe76e8ae509c0b190c3997372dbde06
@@ -69,7 +69,7 @@ Architecture: iphoneos-arm
 Maintainer: CokePokes
 Depends: firmware (>= 11.0), mobilesubstrate
 Conflicts: com.unlimapps.appadmin
-Filename: debs/appstoreplusplus_0.7-2_iphoneos-arm.deb
+Filename: debs/appstoreplusplus.deb
 Size: 773082
 MD5sum: 06512ee2be1905d94fff35dea8931ef6
 SHA1: 115df34f33700725f045264f7d3783f96423048c
@@ -84,7 +84,7 @@ Package: com.conditionalwifi3
 Version: 1.0
 Architecture: iphoneos-arm
 Depends: mobilesubstrate
-Filename: debs/conditionalwifi3_1.0.deb
+Filename: debs/conditionalwifi3.deb
 Size: 41546
 MD5sum: 9d1847057be0d38a7f42b10d9dcb4cc0
 SHA1: e1a5846cec51c1d383714636bb117929ead89454
@@ -99,7 +99,7 @@ Package: com.conditionalwifi4
 Version: 1.0
 Architecture: iphoneos-arm
 Depends: mobilesubstrate
-Filename: debs/conditionalwifi4_1.0.deb
+Filename: debs/conditionalwifi4.deb
 Size: 41712
 MD5sum: fd4035397714da0b601c2ef9b7d765a3
 SHA1: ed3b9ca49505488bfbd7ab09721b1d9349352c9e
@@ -115,7 +115,7 @@ Version: 2.3~beta9
 Architecture: iphoneos-arm
 Maintainer: Julio
 Depends: ldid (>= 1:1.2.1), sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
-Filename: debs/cracktool2_2.3~beta9_iphoneos-arm.deb
+Filename: debs/cracktool2.deb
 Size: 432216
 MD5sum: b6232b142ca7f8a19a7bcd726a2aedb3
 SHA1: 34e60cb540b16677387a59b8ab3002f6c0fb37cf
@@ -131,7 +131,7 @@ Version: 6.9.7
 Architecture: iphoneos-arm
 Maintainer: Julio
 Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
-Filename: debs/cydown_6.9.7_iphoneos-arm.deb
+Filename: debs/cydown.deb
 Size: 1085390
 MD5sum: 7e923c276b894da812f3e775df72ffb7
 SHA1: 20784e92651d049dbed0f3c4ccd5f6cf0b20bd17
@@ -150,7 +150,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 72
 Depends: mobilesubstrate, firmware (>= 12.0)
-Filename: debs/letmeblock_0.0.1_iphoneos-arm.deb
+Filename: debs/letmeblock.deb
 Size: 1982
 MD5sum: 94c19760c8ac9cc1df3ec34bde433083
 SHA1: ac743f1fc7c6cfbeab7b49c8c8d0f1b62b75fad4
@@ -167,7 +167,7 @@ Maintainer: Ryley Angus
 Installed-Size: 476
 Depends: mobilesubstrate, preferenceloader, applist
 Conflicts: com.ryleyangus.liberty
-Filename: debs/libertylite_0.2.10.deb
+Filename: debs/libertylite.deb
 Size: 46610
 MD5sum: de8005d35c2204becf725c327f68e1e5
 SHA1: 434f034c55b792f51216342afd04ab965a614570
@@ -184,7 +184,7 @@ Architecture: iphoneos-arm
 Maintainer: SpikeLin <linspike@gmail.com>
 Installed-Size: 2800
 Depends: mobilesubstrate, preferenceloader, firmware (>= 4.0)
-Filename: debs/kuaidial_030a4.deb
+Filename: debs/kuaidial.deb
 Size: 453460
 MD5sum: d7741a28bdcb980c2f3ea14bea02ec08
 SHA1: fbe6bd10e1f6d0d624af7541da530322756952af
@@ -204,7 +204,7 @@ Depends: com.saurik.substrate.safemode
 Conflicts: me.devbug.msreloadfix, com.r3pwn.startsubstrate, com.ragemasta.bootstrap
 Breaks: uikittools (<< 1.1.1), com.mywi4 (<= 5.03.2), com.phoenix.pandoracontrols (<= 1.1.0-1), com.intelliborn.intelliscreenx (<= 1.0.110), com.evad3rs.evasi0n7 (<< 0.2)
 Replaces: cycript (<= 0.9.594)
-Filename: debs/mobilesubstrate_0.9.7032_iphoneos-arm.deb
+Filename: debs/mobilesubstrate.deb
 Size: 1705510
 MD5sum: fd90202a0a0507f5e2c6bd315ea4efed
 SHA1: e16797cad287174b2d0084b160b1b978af123f0d
@@ -224,7 +224,7 @@ Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 12.1.2)
 Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178
 Replaces: us.hackulo.appsync50
 Provides: appsync
-Filename: debs/appsyncunified_32.0.deb
+Filename: debs/appsyncunified.deb
 Size: 37810
 MD5sum: b970b79d91c99d0f6c0c442f7fa86f78
 SHA1: b9328493d2af086b754c66b9cebb9b2489bb6380
@@ -243,7 +243,7 @@ Maintainer: None
 Installed-Size: 12
 Depends: jailbreak-resources (>=1.0~b4)
 Conflicts: jailbreak-resources (<<1.0~b4)
-Filename: debs/signing-certificate_0.0.1_iphoneos-arm.deb
+Filename: debs/signing-certificate.deb
 Size: 6236
 MD5sum: 9a8519c8a43e4a49997269d1c63bdd0a
 SHA1: 1712974f78abad3350252068962ec4062538d232
@@ -258,7 +258,7 @@ Version: 1.9
 Architecture: iphoneos-arm
 Essential: no
 Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000)
-Filename: debs/xgpspro_1.9.deb
+Filename: debs/xgpspro.deb
 Size: 2681606
 MD5sum: 8c128706a1e7cdbcd3b5b0d58b91d245
 SHA1: eb29881feffbe71ca08e9881fd5245e8b8fd6563
@@ -279,7 +279,7 @@ Installed-Size: 92
 Conflicts: science.xnu.injector
 Replaces: science.xnu.injector
 Provides: trustinjector, science.xnu.injector
-Filename: debs/trustinjector_0.4~b3_iphoneos-arm.deb
+Filename: debs/trustinjector.deb
 Size: 15940
 MD5sum: 9c136360fadb3a848bace3f25100d240
 SHA1: 44a2bc13e44a1ff2dd8e4c9c08b55005c37af04f
@@ -296,7 +296,7 @@ Architecture: iphoneos-arm
 Maintainer: Sam Bingner <maintainer@sbdhi.com>
 Installed-Size: 1064
 Depends: coreutils-bin
-Filename: debs/uikittools_1.1.13-5_iphoneos-arm.deb
+Filename: debs/uikittools.deb
 Size: 24894
 MD5sum: 40a82f80b29036decf380d6519b35c8a
 SHA1: 1a68695b482831fce32ce6f8326beaea4fa6d330
