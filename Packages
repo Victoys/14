@@ -1,16 +1,17 @@
-Package: TouGBao.QQMusicDeb2
+Package: TouGBao.QQMusicDeb
 Version: 0.1-1
 Architecture: iphoneos-arm
 Depends: firmware (>= 5.0), mobilesubstrate
 Filename: debs/QQMusicCrack.deb
-Size: 34386
-MD5sum: 11dda76034a9e1638ed34fa18ec77dc2
-SHA1: f9a032c96b0b28a3c8be8c2e96550aedc18b18fd
-SHA256: 2b9ac312fe095477fc73fe044e14c3e220997f5c8543c0d880198a8c773c3bb0
-Section: System
+Size: 34226
+MD5sum: 0e2910cb4bb956ecc71db75fbc06b1c2
+SHA1: 52d9e7ae0bb35a2943597383020b8eae498fa1d5
+SHA256: 96f70a806420ac30931fa7dae9a60f6c9e9285f967fddc199ce87cc7cb573240
+Section: Tweaks
 Priority: optional
+Description: 开启QQ音乐付费版权音乐下载
 Author: TouGBao
-Name: QQMusicDeb2
+Name: QQMusic版权破解
 
 Package: anondev.LocalIAPStore
 Version: 1.4-1
@@ -27,60 +28,23 @@ Description: Pwns In-app purchases on iOS 5.1.1 - 7.1 (works with developer serv
 Author: anondev
 Name: LocalIAPStore
 
-Package: app.weiphone.cn.tinyapps.xgpspro
-Version: 1.9
+Package: com.batterylife
+Version: 1.6.14
 Architecture: iphoneos-arm
-Essential: no
-Maintainer: Feng.com <support@office.feng.com>
-Installed-Size: 6911
-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000)
-Filename: debs/xgpspro_1.9_iphoneos-arm.deb
-Size: 1726700
-MD5sum: 614ad46e570f3918b95338b10648c6b1
-SHA1: 29991a1b8932b1f5dba13c8c07e9c2d0828c1dab
-SHA256: 37e6da49fc88b6738b9460a15e6064f99ff508a5e93f78b0e4ba53c9c08415fd
-Section: [威锋源-Utility]
-Priority: standard
-Homepage: http://apt.so/index.php?r=read&id=56623f4de963464a798b45f8
-Description: 破解方法安装icleaner pro 手机Hosts文件添加如下内容： 127.0.0.1 oc.umeng.com 127.0.0.1 oc.umeng.co 127.0.0.1 au.umeng.com 127.0.0.1 au.umeng.co 127.0.0.1 alog.umeng.com 127.0.0.1 alog.umeng.co 打开icleaner pro，依次点击进入左下角的“加号”图标—设置文件，然后删除如下文件：85819_net(otrlocation.app.85819.net.plist)； ios_OTRLocation(net.85819.ios.OTRLocation.plist)； 定位修改器(cn.tinyapps.XGPSPRo.plist)然后注销手机，Over，Enjoy it！^_^ 欢迎 Follow Twitter：@sunshaoan，Hangouts：sunshaoan[at]gmail.com ^_^ ——教程源自网络
-Tag: role::enduser
-Author: Feng.com<support@office.feng.com>
-Depiction: http://apt.so/index.php?r=cydia&id=56623f4de963464a798b45f8
-Dev: shengwen
-Icon: file:///Applications/XGPSPro.app/Icon.png
-Name: Fake GPS Pro(定位修改器) V1.9
-Sponsor: Feng.com <http://www.feng.com>
-
-Package: com.abcydia.conditionalwifi3
-Version: 1.0.0
-Architecture: iphoneos-arm
-Maintainer: WZteam <admin@abcydia.com>
-Depends: mobilesubstrate
-Filename: debs/com.abcydia.conditionalwifi3_1.0.0.deb
-Size: 41502
-MD5sum: caafa2c57d23dabd4bf130826e0bb69f
-SHA1: 56d558cf60270d6c34f1374dacb4870bff96b83e
-SHA256: 5dac0bc96e0b49f34685ba2476d6e1b0dc6dee88f8008cc9f5388107cad1845d
-Section: Tweaks
-Author: iOS Creatix
-Name: ConditionalWiFi3 WiFi设置
-Sponsor: ABCydia <http://www.abcydia.com>
-
-Package: com.abcydia.conditionalwifi4
-Version: 1.0.0
-Architecture: iphoneos-arm
-Maintainer: WZteam <admin@abcydia.com>
-Depends: mobilesubstrate
-Filename: debs/com.abcydia.conditionalwifi4_1.0.0.deb
-Size: 41704
-MD5sum: cbc547a83172ac13295a032727bd09c4
-SHA1: 5c6e32d9b38e3ebc01df61a207c2f6592b899b7d
-SHA256: 0e047f93f49c8f2bf0e6073525d2a52cde5507da1b7f9dc1ef7037b4449c5133
-Section: Tweaks
-Description: 设置 App WiFi接入限制
-Author: ATWiiks
-Name: ConditionalWiFi4 WiFi设置
-Sponsor: ABCydia <http://www.abcydia.com>
+Maintainer: Victoys
+Depends: firmware (>= 6.0), mobilesubstrate, preferenceloader
+Conflicts: BatteryLife
+Replaces: BatteryLife
+Filename: debs/batterylife_1.6.14_iphoneos-arm.deb
+Size: 3078498
+MD5sum: b29268803cca4124dffc0dbd25a8452a
+SHA1: 0df50d262770d0409c1799fb937c9348d81b8638
+SHA256: bff7af6632880a0681320ee4916e2209575059a7c4c521279b33fdebff6cbc9f
+Section: Utilities
+Priority: extra
+Description: Displays useful information about your device's battery health
+Author: Victoys
+Name: BatteryLife
 
 Package: com.cemck.killx
 Version: 0.1.1-beta
@@ -89,23 +53,69 @@ Maintainer: Cem K
 Installed-Size: 104
 Depends: mobilesubstrate
 Filename: debs/com.cemck.killx_0.1.1-beta.deb
-Size: 6110
-MD5sum: c59452a0f64216aa98ade5e84cfab040
-SHA1: 4d5b6022c13cefe5b2a57fafc5b7f4314501010b
-SHA256: c61161ed46cf1578fd515753f2e68295ff6610aba36186689c27b80fb52f9537
+Size: 8324
+MD5sum: 103edbe0b35214543c41e66c0f68afd8
+SHA1: 2b0af331cbe76e8ae509c0b190c3997372dbde06
+SHA256: 385be25d0a707d11895951131594eb7bc0529da21675fa1965eff78c5f06a5d3
 Section: Tweaks
 Description: One swipe to kill them all!
             Swipe down app switcher cards, to kill all apps.
 Author: Cem K
-Depiction: https://cemck.github.io/repo/depictions/?p=com.cemck.killx
 Name: KillX
+
+Package: com.cokepokes.appstoreplusplus
+Version: 0.7-2
+Architecture: iphoneos-arm
+Maintainer: CokePokes
+Depends: firmware (>= 11.0), mobilesubstrate
+Conflicts: com.unlimapps.appadmin
+Filename: debs/appstoreplusplus_0.7-2_iphoneos-arm.deb
+Size: 773082
+MD5sum: 06512ee2be1905d94fff35dea8931ef6
+SHA1: 115df34f33700725f045264f7d3783f96423048c
+SHA256: 56c9b42aff543d80eff982d69d1ac7b580fd8caefc3ab7d1504cbf40bf801414
+Section: Tweaks
+Priority: optional
+Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11&iOS 12.
+Author: CokePokes
+Name: AppStore++
+
+Package: com.conditionalwifi3
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Filename: debs/conditionalwifi3_1.0.deb
+Size: 41546
+MD5sum: 9d1847057be0d38a7f42b10d9dcb4cc0
+SHA1: e1a5846cec51c1d383714636bb117929ead89454
+SHA256: dcfc22116277ea42eac57d8ac79d5f4802744ea683922d7bf502cd33c354d6a7
+Section: Tweaks
+Description: 激活国行iOS11自带网络开关
+Author: Victoys
+Dev: Victoys
+Name: ConditionalWiFi（iOS11）
+
+Package: com.conditionalwifi4
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Filename: debs/conditionalwifi4_1.0.deb
+Size: 41712
+MD5sum: fd4035397714da0b601c2ef9b7d765a3
+SHA1: ed3b9ca49505488bfbd7ab09721b1d9349352c9e
+SHA256: 61388eb0c3a29eb5b12cc9a7acfa5d5c3918a4aec1dbe5dbbb7d2527933c17d8
+Section: Tweaks
+Description: 激活国行iOS12自带网络开关
+Author: Victoys
+Dev: Victoys
+Name: ConditionalWiFi（iOS12）
 
 Package: com.julioverne.cracktool2
 Version: 2.3~beta9
 Architecture: iphoneos-arm
 Maintainer: Julio
 Depends: ldid (>= 1:1.2.1), sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
-Filename: debs/com.julioverne.cracktool2_2.3~beta9_iphoneos-arm.deb
+Filename: debs/cracktool2_2.3~beta9_iphoneos-arm.deb
 Size: 432216
 MD5sum: b6232b142ca7f8a19a7bcd726a2aedb3
 SHA1: 34e60cb540b16677387a59b8ab3002f6c0fb37cf
@@ -121,7 +131,7 @@ Version: 6.9.7
 Architecture: iphoneos-arm
 Maintainer: Julio
 Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
-Filename: debs/com.julioverne.cydown_6.9.7_iphoneos-arm.deb
+Filename: debs/cydown_6.9.7_iphoneos-arm.deb
 Size: 1085390
 MD5sum: 7e923c276b894da812f3e775df72ffb7
 SHA1: 20784e92651d049dbed0f3c4ccd5f6cf0b20bd17
@@ -140,7 +150,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 72
 Depends: mobilesubstrate, firmware (>= 12.0)
-Filename: debs/com.ps.letmeblock_0.0.1_iphoneos-arm.deb
+Filename: debs/letmeblock_0.0.1_iphoneos-arm.deb
 Size: 1982
 MD5sum: 94c19760c8ac9cc1df3ec34bde433083
 SHA1: ac743f1fc7c6cfbeab7b49c8c8d0f1b62b75fad4
@@ -150,26 +160,23 @@ Description: Make mDNSResponder care about /etc/hosts
 Author: PoomSmart
 Name: LetMeBlock
 
-Package: com.rbt.batterylife
-Version: 1.6.14
+Package: com.ryleyangus.libertylite
+Version: 0.2.10
 Architecture: iphoneos-arm
-Maintainer: poetic_folly <poetic_folly@modmyi.com>
-Depends: firmware (>= 6.0), mobilesubstrate, preferenceloader
-Conflicts: BatteryLife
-Replaces: BatteryLife
-Filename: debs/com.rbt.batterylife_1.6.14_iphoneos-arm.deb
-Size: 3078590
-MD5sum: dab8654ae3c6fe594e24200a69146dbe
-SHA1: 96244c096bff52a42ae231cc143b856a319816c6
-SHA256: cac558cfab50f6ff60ace1a25b965843bc084a8ecd2c4c6fd92abe8ef766c0da
-Section: Utilities
-Priority: extra
-Homepage: http://modmyi.com/info/batterylife.php
-Description: Displays useful information about your device's battery health
-Author: rbt <rbt@rtapps.de>
-Depiction: http://modmyi.com/info/batterylife.d.php
-Name: BatteryLife
-Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Maintainer: Ryley Angus
+Installed-Size: 476
+Depends: mobilesubstrate, preferenceloader, applist
+Conflicts: com.ryleyangus.liberty
+Filename: debs/libertylite_0.2.10.deb
+Size: 46610
+MD5sum: de8005d35c2204becf725c327f68e1e5
+SHA1: 434f034c55b792f51216342afd04ab965a614570
+SHA256: 01574e57f52163b9c776c8ea86b03e511b3dcbc0918cdedef9ceedd71e23a9f8
+Section: Tweaks
+Description: A (lite) general purpose jailbreak detection bypass patch. Use the Liberty entry in the Settings app to block (most) apps from detecting your jailbreak. Disabling Substrate/Substitute is not supported, so certain apps (PayPal, HSBC HK) will still be problematic.
+Author: Ryley Angus
+Icon: file:///Library/PreferenceBundles/LibertyPref.bundle/LibertyPref.png
+Name: Liberty Lite
 
 Package: kuaidial-beta
 Version: 0.3.0a4-44
@@ -209,6 +216,26 @@ Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/mobilesubstrate/
 Name: Cydia Substrate
 
+Package: net.angelxwind.appsyncunified
+Version: 32.0
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ (angelXwind) <karen@angelxwind.net>
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 12.1.2)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178
+Replaces: us.hackulo.appsync50
+Provides: appsync
+Filename: debs/appsyncunified_32.0.deb
+Size: 37810
+MD5sum: b970b79d91c99d0f6c0c442f7fa86f78
+SHA1: b9328493d2af086b754c66b9cebb9b2489bb6380
+SHA256: 37d17f5aa72bc29194d824bdb7ca4c94e5ecd56c1f2d9d2de08285bed3a5379a
+Section: Tweaks
+Homepage: https://cydia.angelxwind.net/
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Author: Linus Yang, Karen/あけみ <karen@angelxwind.net>
+Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.appsyncunified
+Name: AppSync Unified
+
 Package: signing-certificate
 Version: 0.0.1
 Architecture: iphoneos-arm
@@ -225,6 +252,24 @@ Section: System
 Description: A Certificate to sign things with
 Author: None
 Name: Signing Certificate
+
+Package: tinyapps.xgpspro
+Version: 1.9
+Architecture: iphoneos-arm
+Essential: no
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000)
+Filename: debs/xgpspro_1.9.deb
+Size: 2681606
+MD5sum: 8c128706a1e7cdbcd3b5b0d58b91d245
+SHA1: eb29881feffbe71ca08e9881fd5245e8b8fd6563
+SHA256: 559e6bdb8ea27f1d450ae4be9f9459c43fc3d47859c14c99218544bf9d98f23b
+Section: Tweaks
+Priority: standard
+Description: 手机Hosts文件添加如下内容： 127.0.0.1 oc.umeng.com 127.0.0.1 oc.umeng.co 127.0.0.1 au.umeng.com 127.0.0.1 au.umeng.co 127.0.0.1 alog.umeng.com 127.0.0.1 alog.umeng.co
+Author: shengwen
+Dev: shengwen
+Icon: file:///Applications/XGPSPro.app/Icon.png
+Name: Fake GPS Pro(定位修改器)
 
 Package: trustinjector
 Version: 0.4~b3
