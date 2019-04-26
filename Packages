@@ -110,6 +110,18 @@ Author: Victoys
 Dev: Victoys
 Name: ConditionalWiFi（iOS12）
 
+Package: com.dfu
+Version: 1.0
+Architecture: iphoneos-arm
+Filename: debs/kdfu.deb
+Size: 52664
+MD5sum: 9961ebd6d6c645e6961af2231da7bea7
+SHA1: 6d134c04ca0e40a38b31cf62e22766376a92317a
+SHA256: 37ab1ce79dd40371932e2ad0a7dd140b15b6abddd86c165d763d88f23b4b4d87
+Section: Tweaks
+Author: Victoys
+Name: kDFU
+
 Package: com.exile90.icleanerpro
 Version: 7.7.2
 Architecture: iphoneos-arm
@@ -198,6 +210,66 @@ Author: Ryley Angus
 Icon: file:///Library/PreferenceBundles/LibertyPref.bundle/LibertyPref.png
 Name: Liberty Lite
 
+Package: com.sogou.sogouhaomatong
+Version: 2.7.5.45474
+Architecture: iphoneos-arm
+Maintainer: sogouhmt@sogou-inc.com
+Depends: mobilesubstrate (>=0.9.5000), com.rpetrich.rocketbootstrap (>= 1.0), firmware (>= 7.0), firmware (<< 9.5)
+Conflicts: app.weiphone.sogou.sogouhaomatong
+Replaces: app.weiphone.sogou.sogouhaomatong
+Filename: debs/sogouinput.deb
+Size: 4396074
+MD5sum: eb58856c864772906f689d702a7bf231
+SHA1: bec06279179cc141e1ab31e51400ed505717af33
+SHA256: 6c732c030f6f4ba1a0b56b0b91646557c5336cfa4180e3a028433d34f4a41d24
+Section: [搜狗号码通]
+Priority: Standard
+Homepage: http://haoma.sogou.com
+Description: 免打扰 归属地 陌生号码识别 黑名单 拦响一声 拦垃圾短信
+Depiction: http://haoma.sogou.com/cydia/index.php?ios=7&v=2.7.5.45474
+Icon: file:///Applications/sogouhaomatong.app/icon_cydia.png
+Name: 搜狗号码通(iPhone,iOS7&8&9)
+
+Package: com.sogou.sogouhaomatong6
+Version: 2.5.23002
+Architecture: iphoneos-arm
+Maintainer: sogouhmt@sogou-inc.com
+Depends: mobilesubstrate (>=0.9.3367-1), firmware (>= 5.0), firmware (<< 7.0)
+Conflicts: com.sogou.sogouhaomatong, app.weiphone.sogou.sogouhaomatong
+Replaces: com.sogou.sogouhaomatong, app.weiphone.sogou.sogouhaomatong
+Filename: debs/sogouhaomatong6.deb
+Size: 3860890
+MD5sum: 0af6141922ec5a5b4b9a959edd9e07b8
+SHA1: b053fccf625c16180a2492c5c8b362da8ffe563c
+SHA256: 9f30f2c20c8a12c37a36008571bdfdc9fbf84654930513c2cde77461321aa353
+Section: [搜狗号码通]
+Priority: Standard
+Homepage: http://haoma.sogou.com
+Description: 免打扰 归属地 陌生号码识别 黑名单 拦响一声 拦垃圾短信
+Depiction: http://haoma.sogou.com/cydia/index.php?ios=6&v=2.5.23002
+Icon: file:///Applications/sogouhaomatong.app/icon_cydia.png
+Name: 搜狗号码通(iPhone,iOS5&6)
+
+Package: com.sogou.sogouinputiphone4
+Version: 4.8.2-53550
+Architecture: iphoneos-arm
+Maintainer: mobile_sogou@sohu.com
+Depends: mobilesubstrate (>=0.9.5000), firmware (>= 5.0), firmware (<< 8.0)
+Conflicts: sogouinput, com.sogou.sogouinputiphone, com.sogou.sogouinputiphone4, app.weiphone.sogou.sogouinputiphone4, app.weiphone.sogou.sogouinputiphone, sogouinputiphone4.91, sogouinputiphone.91, sogouinputiphone4.178, sogouinputiphone.178, com.duowan.sogou.sogouinputiphone4.tui, com.duowan.sogou.sogouinputiphone.tui, com.duowan.sogou.sogouinputiphone4, com.duowan.sogou.sogouinputiphone
+Replaces: sogouinput, com.sogou.sogouinputiphone, com.sogou.sogouinputiphone4, app.weiphone.sogou.sogouinputiphone4, app.weiphone.sogou.sogouinputiphone, sogouinputiphone4.91, sogouinputiphone.91, sogouinputiphone4.178, sogouinputiphone.178, com.duowan.sogou.sogouinputiphone4.tui, com.duowan.sogou.sogouinputiphone.tui, com.duowan.sogou.sogouinputiphone4, com.duowan.sogou.sogouinputiphone
+Filename: debs/sogouhaomatong.deb
+Size: 12770308
+MD5sum: be5bfae593ba88ec0ff5e521b93442b3
+SHA1: 44fa4ba41f04a16574e86c73458e1cd31b8c4fff
+SHA256: b300900a1238caa6aa58d88455f4438b3d62edffeb2f7c74e3561d3fbd16e07b
+Section: [搜狗输入法]
+Homepage: http://shouji.sogou.com/
+Description: 最适合中国用户使用的iPhone输入法。
+Author: 搜狗
+Depiction: http://shouji.sogou.com/cydia/index.iphone.html
+Icon: file:///Applications/SogouSettings.app/icon.png
+Name: 搜狗输入法(iPhone)
+
 Package: com.unlimapps.uaupdatetools
 Version: 1.0r-101
 Architecture: iphoneos-arm
@@ -274,6 +346,23 @@ Description: Enables the ability to install unsigned/fakesigned iOS applications
 Author: Linus Yang, Karen/あけみ <karen@angelxwind.net>
 Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.appsyncunified
 Name: AppSync Unified
+
+Package: net.angelxwind.stash841
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ (angelXwind) <angelXwind@angelxwind.net>
+Depends: net.tihmstar.etasonuntether (>= 1.1.0), firmware (= 8.4.1)
+Filename: debs/stash.deb
+Size: 1090
+MD5sum: 9a224fe296d87727221afd3b83929969
+SHA1: f928641255024f3e74af257fee7d317f4f1d8ad7
+SHA256: 67acc84da2967f7cc8b70f1f9a4ce2170389c2335d10441f2549802c5f1f8d53
+Section: System
+Homepage: https://cydia.angelxwind.net/
+Description: Enables stashing on #etasonJB (iOS 8.4.1)
+Author: Karen/あけみ (angelXwind) <angelXwind@angelxwind.net>
+Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.stash841
+Name: Stashing for #etasonJB (8.4.1)
 
 Package: signing-certificate
 Version: 0.0.1
