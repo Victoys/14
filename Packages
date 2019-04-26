@@ -114,11 +114,12 @@ Package: com.dfu
 Version: 1.0
 Architecture: iphoneos-arm
 Filename: debs/kdfu.deb
-Size: 52664
-MD5sum: 9961ebd6d6c645e6961af2231da7bea7
-SHA1: 6d134c04ca0e40a38b31cf62e22766376a92317a
-SHA256: 37ab1ce79dd40371932e2ad0a7dd140b15b6abddd86c165d763d88f23b4b4d87
+Size: 52714
+MD5sum: 2edc195fe3ce291b06dedc16e0d3d2f7
+SHA1: 421c8af1acd7a6ed09ea1fc24ef6ebb877eab8ef
+SHA256: 58e898c4b5da841b683ee54f75f3ba18a467c7f3f1591c4cef1fca69f3c0db50
 Section: Tweaks
+Description: 32位iPhone进入kDFU模式
 Author: Victoys
 Name: kDFU
 
