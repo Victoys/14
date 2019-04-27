@@ -177,6 +177,28 @@ Depiction: http://julio.xarold.com/files-deb/cydown.html
 Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
 Name: CyDown
 
+Package: com.matchstic.reprovision
+Version: 0.4.2
+Architecture: iphoneos-arm
+Maintainer: Matt Clarke <matt@incendo.ws>
+Depends: firmware (>= 9.0)
+Replaces: com.matchstic.Extender-Installer
+Provides: com.matchstic.Extender-Installer
+Filename: debs/reprovision.deb
+Size: 10573694
+MD5sum: e01d764b70d8ad1a9cf35eae944962d4
+SHA1: 684dfff90782e30e1499abda4c2c8af5facd3bb2
+SHA256: 27d05d240aca105eb3bfaadacc0b00199733053d62bd6d9c469fdb3e808347dc
+Section: System
+Priority: optional
+Homepage: https://github.com/Matchstic/Extender-Installer
+Description: Re-sign applications on your device
+Author: Matt Clarke <matt@incendo.ws>
+Depiction: http://incendo.ws/repo/depictions/com.matchstic.reprovision.html
+Dev: Matt Clarke <matt@incendo.ws>
+Icon: file:///Applications/ReProvision.app/AppIcon60x60@2x.png
+Name: ReProvision
+
 Package: com.ps.letmeblock
 Version: 0.0.1
 Architecture: iphoneos-arm
