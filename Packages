@@ -64,19 +64,19 @@ Author: Cem K
 Name: KillX
 
 Package: com.cokepokes.appstoreplusplus
-Version: 0.7-2
+Version: 0.7-3
 Architecture: iphoneos-arm
 Maintainer: CokePokes
 Depends: firmware (>= 11.0), mobilesubstrate
 Conflicts: com.unlimapps.appadmin
 Filename: debs/appstoreplusplus.deb
-Size: 773082
-MD5sum: 06512ee2be1905d94fff35dea8931ef6
-SHA1: 115df34f33700725f045264f7d3783f96423048c
-SHA256: 56c9b42aff543d80eff982d69d1ac7b580fd8caefc3ab7d1504cbf40bf801414
+Size: 762752
+MD5sum: 82301ad108d785b23ede11f2a78d1618
+SHA1: d34dd4644c1661236e36239db0b9583ca389f0c9
+SHA256: 5b016e5feec4f543f412857bf8d97c230fb2d89ce0c5b7f3d2262decb96fe352
 Section: Tweaks
 Priority: optional
-Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11&iOS 12.
+Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-12.1.2
 Author: CokePokes
 Name: AppStore++
 
