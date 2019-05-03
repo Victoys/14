@@ -199,22 +199,6 @@ Dev: Matt Clarke <matt@incendo.ws>
 Icon: file:///Applications/ReProvision.app/AppIcon60x60@2x.png
 Name: ReProvision
 
-Package: com.ps.letmeblock
-Version: 0.0.1
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 72
-Depends: mobilesubstrate, firmware (>= 12.0)
-Filename: debs/letmeblock.deb
-Size: 1982
-MD5sum: 94c19760c8ac9cc1df3ec34bde433083
-SHA1: ac743f1fc7c6cfbeab7b49c8c8d0f1b62b75fad4
-SHA256: 0bcf46aa72f3c91444780bcbfbeabcdf9217e5f718691111fa5927d31857ef40
-Section: Tweaks
-Description: Make mDNSResponder care about /etc/hosts
-Author: PoomSmart
-Name: LetMeBlock
-
 Package: com.ryleyangus.libertylite
 Version: 0.2.10
 Architecture: iphoneos-arm
@@ -329,27 +313,6 @@ Description: adds useful functions to Phone app
 Author: SpikeLin <linspike@gmail.com>
 Name: KuaiDial
 
-Package: mobilesubstrate
-Version: 0.9.7032
-Architecture: iphoneos-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: com.saurik.substrate.safemode
-Conflicts: me.devbug.msreloadfix, com.r3pwn.startsubstrate, com.ragemasta.bootstrap
-Breaks: uikittools (<< 1.1.1), com.mywi4 (<= 5.03.2), com.phoenix.pandoracontrols (<= 1.1.0-1), com.intelliborn.intelliscreenx (<= 1.0.110), com.evad3rs.evasi0n7 (<< 0.2)
-Replaces: cycript (<= 0.9.594)
-Filename: debs/mobilesubstrate.deb
-Size: 1705510
-MD5sum: fd90202a0a0507f5e2c6bd315ea4efed
-SHA1: e16797cad287174b2d0084b160b1b978af123f0d
-SHA256: 2207604662e91507cda34924cc4a38e112a21c2666ef4cdac87f5ae2a86d706f
-Section: System
-Priority: optional
-Description: powerful code insertion platform
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Depiction: http://cydia.saurik.com/info/mobilesubstrate/
-Name: Cydia Substrate
-
 Package: net.angelxwind.appsyncunified
 Version: 32.0
 Architecture: iphoneos-arm
@@ -387,23 +350,6 @@ Author: Karen/あけみ (angelXwind) <angelXwind@angelxwind.net>
 Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.stash841
 Name: Stashing for #etasonJB (8.4.1)
 
-Package: signing-certificate
-Version: 0.0.1
-Architecture: iphoneos-arm
-Maintainer: None
-Installed-Size: 12
-Depends: jailbreak-resources (>=1.0~b4)
-Conflicts: jailbreak-resources (<<1.0~b4)
-Filename: debs/signing-certificate.deb
-Size: 6236
-MD5sum: 9a8519c8a43e4a49997269d1c63bdd0a
-SHA1: 1712974f78abad3350252068962ec4062538d232
-SHA256: aea04fee142127d2972aecc33a5402e7d9d8ad7f97cc93be5aab3d02a5a67f39
-Section: System
-Description: A Certificate to sign things with
-Author: None
-Name: Signing Certificate
-
 Package: tinyapps.xgpspro
 Version: 1.9
 Architecture: iphoneos-arm
@@ -421,41 +367,4 @@ Author: shengwen
 Dev: shengwen
 Icon: file:///Applications/XGPSPro.app/Icon.png
 Name: Fake GPS Pro(定位修改器)
-
-Package: trustinjector
-Version: 0.4~b3
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 92
-Conflicts: science.xnu.injector
-Replaces: science.xnu.injector
-Provides: trustinjector, science.xnu.injector
-Filename: debs/trustinjector.deb
-Size: 15940
-MD5sum: 9c136360fadb3a848bace3f25100d240
-SHA1: 44a2bc13e44a1ff2dd8e4c9c08b55005c37af04f
-SHA256: 9652370f81bfa5fbc0f9128d73919536028bbaff79c49d61558e3906d83ff37b
-Section: System
-Description: Inject files to kernel trust cache
-Tag: role::hacker
-Author: Sam Bingner <maintainer@sbdhi.com>
-Name: Trust Cache Injector
-
-Package: uikittools
-Version: 1.1.13-5
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 1064
-Depends: coreutils-bin
-Filename: debs/uikittools.deb
-Size: 24894
-MD5sum: 40a82f80b29036decf380d6519b35c8a
-SHA1: 1a68695b482831fce32ce6f8326beaea4fa6d330
-SHA256: 4410adcfe376b62467ee0ae68227885021c12852b17f33a384e699e8fd83f009
-Section: Utilities
-Priority: optional
-Homepage: http://tukaani.org/lzma/
-Description: UIKit/GraphicsServices command line access
-Depiction: http://cydia.saurik.com/info/uikittools/
-Name: UIKit Tools
 
