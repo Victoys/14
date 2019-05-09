@@ -64,20 +64,21 @@ Author: Cem K
 Name: KillX
 
 Package: com.cokepokes.appstoreplusplus
-Version: 0.7-3
+Version: 0.7-6
 Architecture: iphoneos-arm
 Maintainer: CokePokes
 Depends: firmware (>= 11.0), mobilesubstrate
 Conflicts: com.unlimapps.appadmin
 Filename: debs/appstoreplusplus.deb
-Size: 762752
-MD5sum: 82301ad108d785b23ede11f2a78d1618
-SHA1: d34dd4644c1661236e36239db0b9583ca389f0c9
-SHA256: 5b016e5feec4f543f412857bf8d97c230fb2d89ce0c5b7f3d2262decb96fe352
+Size: 1514142
+MD5sum: 50ff036c313202757ecba3229732b8a4
+SHA1: 544ffd0cafd8376355c9d6639c72955d2b7477d5
+SHA256: 60e1d11a848921a94041b204122e36a78178230062dd920e122c6b0c6c1d7e40
 Section: Tweaks
 Priority: optional
 Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-12.1.2
 Author: CokePokes
+Depiction: https://cokepokes.github.io/depiction/appstoreplus.html
 Name: AppStore++
 
 Package: com.conditionalwifi3
@@ -124,17 +125,17 @@ Author: Victoys
 Name: kDFU
 
 Package: com.exile90.icleanerpro
-Version: 7.7.2
+Version: 7.7.5
 Architecture: iphoneos-arm
 Maintainer: Ivano Bilenchi <support@ib-soft.net>
 Depends: firmware (>= 4.0), findutils, shell-cmds, apt | apt7
 Conflicts: org.altervista.exilecom.icleaner
 Replaces: org.altervista.exilecom.icleaner
 Filename: debs/iCleanerPro.deb
-Size: 5367576
-MD5sum: 12fcc23b6be7079c7337d9c67b125c7d
-SHA1: 4a100233b48087ab6a13b1000e245ef43fed626e
-SHA256: 9a1044fe16b23d2e93303c8bb4b17d3ca2eb40f53dd7e711b1c48cfc0419f205
+Size: 5385562
+MD5sum: 5b6209151608ac092b4805833691bd9d
+SHA1: 0949f21d5f407a2e32b1b5741a1fe313d9e49aff
+SHA256: c90508a0f6782136717407639147ae5bbfba730c252ba044185a0ed072e2fccd
 Section: Utilities
 Homepage: http://ib-soft.net/icleaner
 Description: The first real iOS system cleaner & optimizer
@@ -278,16 +279,16 @@ Icon: file:///Applications/SogouSettings.app/icon.png
 Name: 搜狗输入法(iPhone)
 
 Package: com.unlimapps.uaupdatetools
-Version: 1.0r-101
+Version: 1.0r-102
 Architecture: iphoneos-arm
 Maintainer: UnlimApps Inc.
 Depends: firmware (>= 7.0), mobilesubstrate
 Conflicts: it.marcocristalli.asupdatehider
 Filename: debs/uaupdatetools.deb
-Size: 875008
-MD5sum: 4ab9f1fc10827990402c4a3cbbdeb46a
-SHA1: d576761d3f85f34c7eb5236a26f18df3d943dd85
-SHA256: 58a6f8e2875c78615ec6eb5637d2cccb1747d472d8cac963ac0ba82dc189b2bb
+Size: 863628
+MD5sum: 6d7f076eb541e5bbec3e3629f152d16d
+SHA1: 058a98b3da7197c1c767c71a6db420b392a460d2
+SHA256: 8a251edeb458547686060caa4545800061b5d6d465b34982c1e76580474180c1
 Section: System
 Priority: optional
 Homepage: http://beta.unlimapps.com/depiction/com.unlimapps.uaupdatetools/
