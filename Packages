@@ -64,16 +64,16 @@ Author: Cem K
 Name: KillX
 
 Package: com.cokepokes.appstoreplusplus
-Version: 0.7-6
+Version: 0.9-9
 Architecture: iphoneos-arm
 Maintainer: CokePokes
 Depends: firmware (>= 11.0), mobilesubstrate
-Conflicts: com.unlimapps.appadmin
+Conflicts: com.unlimapps.uaupdatetools
 Filename: debs/appstoreplusplus.deb
-Size: 1514142
-MD5sum: 50ff036c313202757ecba3229732b8a4
-SHA1: 544ffd0cafd8376355c9d6639c72955d2b7477d5
-SHA256: 60e1d11a848921a94041b204122e36a78178230062dd920e122c6b0c6c1d7e40
+Size: 1624598
+MD5sum: 8490eecaa9322717fd4a3806691caf25
+SHA1: 0fc871ab9f717b07140b61c13110ff6a3fdb3542
+SHA256: 73c08634f9eab3a7e0761e3cf7ef83f7afd5c23a49ae9fd8182d843c0a2585e1
 Section: Tweaks
 Priority: optional
 Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-12.1.2
@@ -144,6 +144,23 @@ Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
 Icon: file:///Applications/iCleaner.app/Icon.png
 Name: iCleaner Pro
 
+Package: com.fqhook
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: mobilesubstrate
+Filename: debs/huanggua.deb
+Size: 13256
+MD5sum: 8c9d282ec38c68f0350ec7382b628663
+SHA1: 70aa0e8a72556da467c31e60639e6a48a12d130c
+SHA256: 0181f78c9cf23f3daa1714a285194102cdb312dc82b94cbc2c9cba4828755615
+Section: Tweeaks
+Description: 去广告、无限制观看下载视频、观看次数不清零
+Author: Victoys
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Name: 番茄社区
+Sponsor: Victoys
+
 Package: com.julioverne.cracktool2
 Version: 2.3~beta9
 Architecture: iphoneos-arm
@@ -177,6 +194,23 @@ Author: julioverne <julioverne@me.com>
 Depiction: http://julio.xarold.com/files-deb/cydown.html
 Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
 Name: CyDown
+
+Package: com.kuwohook
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: mobilesubstrate
+Filename: debs/kuwo.deb
+Size: 13440
+MD5sum: 633d75d063e9bb387e79115994da32bd
+SHA1: d81234208fb23585d8716f60cf06c6259756af01
+SHA256: f510595b8bbe3fb84df1cbc0a471628c6b17b190fa49f29c3fbf9d74becf99d9
+Section: Tweaks
+Description: 开启会员所有VIP功能、无损音质试听下载
+Author: Victoys
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Name: 酷我音乐
+Sponsor: Victoys
 
 Package: com.matchstic.reprovision
 Version: 0.4.2
@@ -296,6 +330,23 @@ Description: Downgrade iOS apps to any previous version! No AppSync needed!!!
 Author: UnlimApps Inc.
 Depiction: http://beta.unlimapps.com/depiction/com.unlimapps.uaupdatetools/
 Name: App Admin
+
+Package: com.ythook
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: mobilesubstrate
+Filename: debs/yingtao.deb
+Size: 12286
+MD5sum: ceca583f684f16d50f864777a28a467a
+SHA1: e64e869433898600834731a2564d5fba123000ef
+SHA256: 2edb783306a0b706d33aea17d7c540dda563bd890cec21738a71a371e9ee87e9
+Section: Tweaks
+Description: 开启会员所有功能
+Author: Victoys
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Name: 樱桃视频
+Sponsor: Victoys
 
 Package: kuaidial-beta
 Version: 0.3.0a4-44
