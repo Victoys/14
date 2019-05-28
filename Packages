@@ -64,16 +64,16 @@ Author: Cem K
 Name: KillX
 
 Package: com.cokepokes.appstoreplusplus
-Version: 0.9-9
+Version: 0.9-12
 Architecture: iphoneos-arm
 Maintainer: CokePokes
 Depends: firmware (>= 11.0), mobilesubstrate
 Conflicts: com.unlimapps.uaupdatetools
 Filename: debs/appstoreplusplus.deb
-Size: 1624598
-MD5sum: 8490eecaa9322717fd4a3806691caf25
-SHA1: 0fc871ab9f717b07140b61c13110ff6a3fdb3542
-SHA256: 73c08634f9eab3a7e0761e3cf7ef83f7afd5c23a49ae9fd8182d843c0a2585e1
+Size: 1637308
+MD5sum: 4683073d40c3bb0805e6a79838f16e84
+SHA1: e40f6c93ce5c3856446350b25634aee45a9caac1
+SHA256: 1a7588a7961fe0588c111e7d5283d8fe9b64b9893c3094707afe3c7645351098
 Section: Tweaks
 Priority: optional
 Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-12.1.2
@@ -212,6 +212,21 @@ Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
 Name: 酷我音乐
 Sponsor: Victoys
 
+Package: com.kwmusic
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: mobilesubstrate
+Filename: debs/kuwoplus.deb
+Size: 14934
+MD5sum: b4d821545c4da04490a63e0ec462fb15
+SHA1: 6aa7ec6f077ebd263a446cff626c000e76075047
+SHA256: 2010728c7ba302cb9d7bbf36f3638eee31070440228e81ed7d96245c8138f9ca
+Section: Tweaks
+Description: 酷我音乐全功能破解，开启年费会员所有特权、图标，皮肤随意使用，试听下载任意付费专辑，下载灰色SQ品质音乐，精简酷我部分功能，移除海外ip限制，去除启动广告。
+Author: Victoys
+Name: 酷我音乐Plus
+
 Package: com.matchstic.reprovision
 Version: 0.4.2
 Architecture: iphoneos-arm
@@ -233,6 +248,22 @@ Depiction: http://incendo.ws/repo/depictions/com.matchstic.reprovision.html
 Dev: Matt Clarke <matt@incendo.ws>
 Icon: file:///Applications/ReProvision.app/AppIcon60x60@2x.png
 Name: ReProvision
+
+Package: com.ps.letmeblock
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate, firmware (>= 12.0)
+Filename: debs/letmeblock.deb
+Size: 1982
+MD5sum: 94c19760c8ac9cc1df3ec34bde433083
+SHA1: ac743f1fc7c6cfbeab7b49c8c8d0f1b62b75fad4
+SHA256: 0bcf46aa72f3c91444780bcbfbeabcdf9217e5f718691111fa5927d31857ef40
+Section: Tweaks
+Description: Make mDNSResponder care about /etc/hosts
+Author: PoomSmart
+Name: LetMeBlock
 
 Package: com.ryleyangus.libertylite
 Version: 0.2.10
@@ -365,24 +396,46 @@ Description: adds useful functions to Phone app
 Author: SpikeLin <linspike@gmail.com>
 Name: KuaiDial
 
-Package: net.angelxwind.appsyncunified
-Version: 32.0
+Package: mobilesubstrate
+Version: 0.9.7033
 Architecture: iphoneos-arm
-Maintainer: Karen/あけみ (angelXwind) <karen@angelxwind.net>
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: com.saurik.substrate.safemode
+Conflicts: me.devbug.msreloadfix, com.r3pwn.startsubstrate, com.ragemasta.bootstrap
+Breaks: uikittools (<< 1.1.1), com.mywi4 (<= 5.03.2), com.phoenix.pandoracontrols (<= 1.1.0-1), com.intelliborn.intelliscreenx (<= 1.0.110), com.evad3rs.evasi0n7 (<< 0.2)
+Replaces: cycript (<= 0.9.594)
+Filename: debs/mobilesubstrate.deb
+Size: 1704642
+MD5sum: 08d58361a22889eb20d5a81849e51060
+SHA1: ad976155bfc1e3783952232649058a2318d6fd70
+SHA256: 6add5f3b6e4ceb4109c2b32f1bc1cf5443ca31636da39d864073655e3206840f
+Section: System
+Priority: optional
+Description: powerful code insertion platform
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/mobilesubstrate/
+Name: Cydia Substrate
+
+Package: net.angelxwind.appsyncunified
+Version: 40.0
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 384
 Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 12.1.2)
 Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178
 Replaces: us.hackulo.appsync50
 Provides: appsync
 Filename: debs/appsyncunified.deb
-Size: 37810
-MD5sum: b970b79d91c99d0f6c0c442f7fa86f78
-SHA1: b9328493d2af086b754c66b9cebb9b2489bb6380
-SHA256: 37d17f5aa72bc29194d824bdb7ca4c94e5ecd56c1f2d9d2de08285bed3a5379a
+Size: 33744
+MD5sum: a60d58b5f1b7635e1e8a775310634cdf
+SHA1: 0f87b8fce75c15c3c5d087927e3a37d1a9ab1f6f
+SHA256: 6df7946a51ec985d1cf6fa01b6500447b4305c815666976392398857956096db
 Section: Tweaks
-Homepage: https://cydia.angelxwind.net/
+Homepage: https://cydia.akemi.ai/
 Description: Enables the ability to install unsigned/fakesigned iOS applications.
-Author: Linus Yang, Karen/あけみ <karen@angelxwind.net>
-Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.appsyncunified
+Author: Linus Yang, Karen/あけみ <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified
 Name: AppSync Unified
 
 Package: net.angelxwind.stash841
@@ -402,6 +455,39 @@ Author: Karen/あけみ (angelXwind) <angelXwind@angelxwind.net>
 Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.stash841
 Name: Stashing for #etasonJB (8.4.1)
 
+Package: signing-certificate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: None
+Installed-Size: 12
+Depends: jailbreak-resources (>=1.0~b4)
+Conflicts: jailbreak-resources (<<1.0~b4)
+Filename: debs/signing-certificate.deb
+Size: 6236
+MD5sum: 9a8519c8a43e4a49997269d1c63bdd0a
+SHA1: 1712974f78abad3350252068962ec4062538d232
+SHA256: aea04fee142127d2972aecc33a5402e7d9d8ad7f97cc93be5aab3d02a5a67f39
+Section: System
+Description: A Certificate to sign things with
+Author: None
+Name: Signing Certificate
+
+Package: system-memory-reset-fix
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Pwn20wnd
+Installed-Size: 56
+Depends: mobilesubstrate
+Filename: debs/system-memory-reset-fix.deb
+Size: 1888
+MD5sum: cf5d152ef813a52c57bfb4e7bc64ad5c
+SHA1: e5be957cc57267c754cfdf12f694e245e78623b0
+SHA256: 340f052351a83874fd44b999704ac0c1a5b32538388eeb6dad123bee250e0ae4
+Section: System
+Description: Prevent overnight userspace reboots triggered by mmaintenanced
+Author: Pwn20wnd
+Name: System Memory Reset Fix
+
 Package: tinyapps.xgpspro
 Version: 1.9
 Architecture: iphoneos-arm
@@ -419,4 +505,23 @@ Author: shengwen
 Dev: shengwen
 Icon: file:///Applications/XGPSPro.app/Icon.png
 Name: Fake GPS Pro(定位修改器)
+
+Package: trustinjector
+Version: 0.4~b5
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 252
+Conflicts: science.xnu.injector
+Replaces: science.xnu.injector
+Provides: trustinjector, science.xnu.injector
+Filename: debs/trustinjector.deb
+Size: 41530
+MD5sum: e5d40a5f18e4a88c11a482ea0cfc9f00
+SHA1: 419ba2fb242daf8323ae34c859f91f418b15619b
+SHA256: f2c5f283a9e83832ba8649b12e89f4aaec5135a785b111cce16d98a72b47e56d
+Section: System
+Description: Inject files to kernel trust cache
+Tag: role::hacker
+Author: Sam Bingner <maintainer@sbdhi.com>
+Name: Trust Cache Injector
 
