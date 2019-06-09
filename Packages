@@ -28,6 +28,21 @@ Description: Pwns In-app purchases on iOS 5.1.1 - 7.1 (works with developer serv
 Author: anondev
 Name: LocalIAPStore
 
+Package: com.25mao.SuDial
+Version: 0.1-3
+Architecture: iphoneos-arm
+Maintainer: admin@25mao.com
+Depends: firmware (>= 9.0), mobilesubstrate, PreferenceLoader
+Filename: debs/SuDial.deb
+Size: 364370
+MD5sum: bd687592731d19520abee1c6e85b99c8
+SHA1: 8cc306e6e34b548867edfd17a6c6b9e1b0af7430
+SHA256: 49f782ee0f7bb76ef31a1ed232c9451b051f8fd9d5af02ed683f469f43c4a1f8
+Section: 系统插件
+Priority: optional
+Author: Mao
+Name: SuDial - T9拨号
+
 Package: com.batterylife
 Version: 1.6.14
 Architecture: iphoneos-arm
