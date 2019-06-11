@@ -99,18 +99,17 @@ Name: AppStore++
 Package: com.conditionalwifi2
 Version: 1.0
 Architecture: iphoneos-arm
-Maintainer: Victoys
-Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000)
+Depends: mobilesubstrate
 Filename: debs/conditionalwifi2.deb
-Size: 13080
-MD5sum: a9e81fd7d45dd04800b416047c5e3ad1
-SHA1: 633efacbb03f2a08690f49babe94357edb9e3d31
-SHA256: 302547d97994281bd64c15f4f05857ef58afaa8cf856f1147bd6b515926e66b0
+Size: 13072
+MD5sum: fdc536a0b040b915bfa880487abf5b47
+SHA1: 59ab6019edafc9131f47286660d0530bce51b6de
+SHA256: bd68bb5eaee9f1b978803d29a1f97290ce0f0de8ace709f54b553b8fdbf57963
 Section: Tweaks
 Description: 激活国行iOS10自带网络开关
 Author: Victoys
+Dev: Victoys
 Name: ConditionalWiFi（iOS10）
-Sponsor: Victoys
 
 Package: com.conditionalwifi3
 Version: 1.0
