@@ -103,9 +103,9 @@ Maintainer: Victoys
 Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000)
 Filename: debs/conditionalwifi2.deb
 Size: 13080
-MD5sum: 8eb31659ad182ad15edc47039ead2735
-SHA1: 12d3939199d0ed64d6fc57e21aa47aad521f8e93
-SHA256: 45c339693f3fbe630c3a4c2f22c562b6d928d9b80f950b7bf1e87b72428eb5cd
+MD5sum: a9e81fd7d45dd04800b416047c5e3ad1
+SHA1: 633efacbb03f2a08690f49babe94357edb9e3d31
+SHA256: 302547d97994281bd64c15f4f05857ef58afaa8cf856f1147bd6b515926e66b0
 Section: Tweaks
 Description: 激活国行iOS10自带网络开关
 Author: Victoys
