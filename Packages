@@ -96,6 +96,22 @@ Author: CokePokes
 Depiction: https://cokepokes.github.io/depiction/appstoreplus.html
 Name: AppStore++
 
+Package: com.conditionalwifi2
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000)
+Filename: debs/conditionalwifi2.deb
+Size: 13084
+MD5sum: 8c11d030e41580d3beebf718082c04bd
+SHA1: 9c73e7531b8c05be1f851195071c683281882ed3
+SHA256: cab564727fc8cc218da6e54430afcd8ec7fef3a4c42317c288bc4f588e735135
+Section: Tweaks
+Description: 激活国行iOS10自带网络开关
+Author: Victoys
+Name: ConditionWiFi2（iOS10）
+Sponsor: Victoys
+
 Package: com.conditionalwifi3
 Version: 1.0
 Architecture: iphoneos-arm
