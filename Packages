@@ -43,6 +43,21 @@ Priority: optional
 Author: Mao
 Name: SuDial - T9拨号
 
+Package: com.abcydia.conditionalwifi2
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: WZteam <admin@abcydia.com>
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000)
+Filename: debs/conditionalwifi2.deb
+Size: 12978
+MD5sum: 3a21c4f0b44a38ed2e9386d693ae039d
+SHA1: dff36742e0d6452b860371ea17b90863f74a879e
+SHA256: cbe82a3bb1436150c783e4e2ebddcca6485999fafdec1b1f2459cbfc2f4a7613
+Section: Tweaks
+Author: iOS Creatix <admin@abcydia.com>
+Name: ConditionWiFi2 WiFi限制
+Sponsor: ABCydia <http://www.abcydia.com>
+
 Package: com.batterylife
 Version: 1.6.14
 Architecture: iphoneos-arm
@@ -95,21 +110,6 @@ Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-12.1
 Author: CokePokes
 Depiction: https://cokepokes.github.io/depiction/appstoreplus.html
 Name: AppStore++
-
-Package: com.conditionalwifi2
-Version: 1.0
-Architecture: iphoneos-arm
-Depends: mobilesubstrate
-Filename: debs/conditionalwifi2.deb
-Size: 13072
-MD5sum: fdc536a0b040b915bfa880487abf5b47
-SHA1: 59ab6019edafc9131f47286660d0530bce51b6de
-SHA256: bd68bb5eaee9f1b978803d29a1f97290ce0f0de8ace709f54b553b8fdbf57963
-Section: Tweaks
-Description: 激活国行iOS10自带网络开关
-Author: Victoys
-Dev: Victoys
-Name: ConditionalWiFi（iOS10）
 
 Package: com.conditionalwifi3
 Version: 1.0
