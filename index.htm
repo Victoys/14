@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html><head>
+<title>Victoys Repo</title>
+<link rel='stylesheet' type='text/css' href='ios.css'/>
+<meta name='viewport' content='width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;'/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<script src="jquery.min.js"></script>
+<script src="description.js?_=46545663394"></script>
+<body onload="loadRecentUpdates();">
+<h2>Welcome！</h2>
+<ul>
+	<li>
+		<a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://victoys.github.io/cydia/">
+			<img class="icon" src="cydia.png"/>
+			点击添加源（自动调用Cydia）</label>
+		</a>
+	</li>
+</ul>
+<br />
+需要破解的VIP视频网址：
+<input id="txtIn" type="text" size="50" title="输入网址" onkeydown="javascript:if(event.keyCode==13){doPlayVIP();txtIn.select();txtIn.focus();};" />
+<a href="javascript:void(0);" title="网址清空" onclick="javascript:txtIn.value='';txtIn.focus();">网址清空</a>
+<select id="lefturl" onkeydown="javascript:if(event.keyCode==13){doPlayVIP();txtIn.select();txtIn.focus();};">
+<option value="http://api.baiyug.cn/vip/index.php?url=" selected>1</option>
+<option value="http://www.wmxz.wang/video.php?url=">2</option>
+<option value="http://www.vipjiexi.com/yun.php?url=">3</option>
+<option value="http://api.cloudparse.com/?url=">4</option>
+<option value="http://v.72du.com/api/?url=">5</option>
+<option value="http://api.47ks.com/webcloud/?v=">6</option>
+<option value="http://000o.cc/jx/ty.php?url=">7</option>
+<option value="http://yyygwz.com/index.php?url=">8</option>
+<option value="http://s1y2.com/?url=">9</option>
+<option value="http://yun.mt2t.com/yun?url=">10</option>
+<option value="http://qtzr.net/s/?qt=">11</option>
+</select>
+<input type="button" value="一键破解" onclick="javascript:doPlayVIP();txtIn.select();txtIn.focus();" />
+<br />
+接口解析列表：<br />
+<br />
+【1】爱奇艺、优酷、土豆、腾讯、搜狐、乐视、芒果、PPTV<br />
+【2】爱奇艺、优酷、土豆、腾讯、搜狐、乐视、芒果、PPTV<br/>
+【3】爱奇艺、优酷、土豆、腾讯、搜狐、乐视、芒果、PPTV<br />
+【4】爱奇艺、优酷、土豆、腾讯、搜狐、乐视、芒果、PPTV<br />
+【5】爱奇艺、优酷、腾讯、搜狐、乐视、芒果、PPTV<br />
+【6】爱奇艺、优酷、腾讯、搜狐、乐视、芒果、PPTV<br />
+【7】爱奇艺、优酷、土豆、搜狐、乐视、芒果、PPTV<br />
+【8】爱奇艺、优酷、土豆、搜狐、乐视、芒果、PPTV<br />
+【9】爱奇艺、腾讯、搜狐、乐视、芒果、PPTV<br />
+【10】爱奇艺、腾讯、搜狐、乐视、芒果<br />
+【11】搜狐、乐视<br />
+
+
+<br />
+
+<p>&nbsp;</p>
+
+<script type="text/javascript">
+<!--
+function doPlayVIP() {
+  var strIn,theurl;
+  var iPos=0;
+  strIn = decodeURIComponent(txtIn.value);
+  if ( strIn.length<1 ) {
+    alert("提示\n\n请输入正确地址\n\n");
+    return;
+  };
+  iPos = strIn.indexOf(".html");
+  if ( iPos>0 ) {
+    txtIn.value = strIn.substr(0,iPos+5);
+  } else {
+    iPos = strIn.indexOf(".shtml");
+    if ( iPos>0 && strIn.indexOf(".sohu.com")>0 ) {
+      txtIn.value = strIn.substr(0,iPos+6);
+    };
+  };
+  theurl = lefturl.value + txtIn.value;
+  window.open(theurl);
+};
+// -->
+</script>
+
+</body>
+</html>
+
+<br />
+接口来自互联网，如果长时间无法解析或者无法播放，请切换接口 <br />
+<br />
+码农  Victoys <br />
+微信：527700031<br />
+<br />
+
+
+<html>  
+<head>  
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />  
+<title>兼容FireFox的当前时间的JS脚本</title>  
+</head>  
+  
+<body>  
+<DIV id=time>当前时间  
+<SCRIPT>document.getElementById('time').innerHTML=new Date().toLocaleString()+' 星期'+'日一二三四五六'.charAt(new Date().getDay());setInterval("document.getElementById('time').innerHTML=new Date().toLocaleString()+' 星期'+'日一二三四五六'.charAt(new Date().getDay());",1000);</SCRIPT>  
+</DIV>  
+</body>  
+</html>  
+<!--
+original:
+NTJwb2ppZeiuuuWdmwpRUee+pO+8mjU2ODU4MDI3MA
+-->

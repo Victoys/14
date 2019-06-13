@@ -392,6 +392,38 @@ Author: UnlimApps Inc.
 Depiction: http://beta.unlimapps.com/depiction/com.unlimapps.uaupdatetools/
 Name: App Admin
 
+Package: com.yourcompany.ioshelper12
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: iBreak
+Installed-Size: 980
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
+Filename: debs/iOS Helper.deb
+Size: 218906
+MD5sum: 247047f52d70d9ee2c5f55db48f1017a
+SHA1: 736370ac92e805241ab5d0de072e5ef76ba242b6
+SHA256: 59153a5dbbe373f6ebb989197cba8351b62f8cb98ba8cff366bbf2ed02a03310
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: iBreak
+Name: iOS Helper 12
+
+Package: com.yourcompany.powerhelper
+Version: 1.0-Beta3
+Architecture: iphoneos-arm
+Maintainer: iBreak
+Installed-Size: 376
+Depends: mobilesubstrate
+Filename: debs/Power Helper.deb
+Size: 70136
+MD5sum: 8d82741297448f2210d9e368184b5a85
+SHA1: eb1c32d69598a13e7ae7e06abcbfb1ad49de2b90
+SHA256: b2be439ed19be060e96d8915e827668a7ee18551548f550ea06f640037ac4edc
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: iBreak
+Name: Power Helper
+
 Package: com.yourepo.ibreak.wechathelper
 Version: 2.0
 Architecture: iphoneos-arm
