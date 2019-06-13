@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html><head>
+<title>Victoys Repo</title>
+<link rel='stylesheet' type='text/css' href='ios.css'/>
+<meta name='viewport' content='width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;'/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<script src="jquery.min.js"></script>
+<script src="description.js?_=46545663394"></script>
+<body onload="loadRecentUpdates();">
+<h2>当前正使用浏览器访问本源，请添加到Cydia再次尝试！</h2>
+<ul>
+	<li>
+		<a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://victoys.github.io/cydia/">
+			<img class="icon" src="cydia.png"/>
+			点击添加源（自动调用Cydia）</label>
+		</a>
+	</li>
+</ul>
+<center><h5><span id="year"></span>年
+    <span id="month"></span>月
+    <span id="day"></span>日<br><br>
+    <span id="h"></span>时 <span id="m"></span>分 <span id="s"></span>秒<br><br>
+    星期<span id="week"></span>	
+    <script type="text/javascript">
+        //获取'年'的ID year
+        var year = document.getElementById('year'),
+        //获取'月'的ID month
+        month = document.getElementById('month'),
+        //获取'日'的ID day
+        day = document.getElementById('day'),
+        //获取'星期'的ID week
+        week = document.getElementById('week'),
+        //获取'时'的ID h
+        h = document.getElementById('h'),
+        //获取'分'的ID m
+        m = document.getElementById('m'),
+        //获取'秒'的ID s
+        s = document.getElementById('s');
+        
+        function timed() {
+            //创建Date时间对象
+            var time = new Date();
+            //获取四位数的年分并更改year的内容
+            year.innerHTML=time.getFullYear();
+            //获取月份+1并更改month的内容 月份+1 是因为月份默认从0开始
+            month.innerHTML=time.getMonth()+1;
+            //获取日期并更改day的内容
+            day.innerHTML=time.getDate();
+            //获取星期并更改week的内容
+            week.innerHTML = time.getDay();
+            //获取小时并更改h的内容
+            h.innerHTML=time.getHours();
+            //获取分钟并更改m的内容
+            m.innerHTML=(time.getMinutes() > 9 ? time.getMinutes() : "0" + time.getMinutes());
+            //获取秒钟并更改s的内容
+            s.innerHTML=(time.getSeconds() > 9 ? time.getSeconds() : "0" + time.getSeconds());
+            //获取星期数用于下面的判断
+            w = time.getDay();
+            //定义个数组并赋值
+            var weekArr = ['天','一','二','三','四','五','六'];
+            //for循环
+            for(var i = 0;i<weekArr.length;i++) {
+                //如果w的值等于i的值
+                if (w == i) {
+                    //就更改week的内容为weekArr[i]
+                    //也就是中文的数字
+                    week.innerHTML= weekArr[i];
+                }
+            }
+            //setTimeout函数设置间隔 每1000毫秒执行一次函数
+            setTimeout("timed()",1000);
+            
+        }
+    
+    timed();
+</script></h5>
+<br><p
+<p style="text-align:center;">源地址: https://victoys.github.io/cydia/</p>
+<br><p style="text-align:center;">Victoys © 2019</p>
+</body></html>
