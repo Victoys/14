@@ -376,6 +376,22 @@ Description: 开启来电归属地、T9拨号
 Author: Victoys
 Name: SuDial
 
+Package: com.victoys.ayy
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: mobilesubstrate
+Filename: debs/aiyinyue.deb
+Size: 14444
+MD5sum: 60e5f42aa671269914c6524adabab797
+SHA1: 32a3e5545d3d9d3543134427563b6be8e534b79b
+SHA256: e1e33571ea897ced3ac79819e47e7dba6f12a6d03da77a61297afd1fe11b26df
+Section: Tweaks
+Description: 爱音乐解锁版权音乐在线试听、下载
+Author: Victoys
+Name: 爱音乐破解
+Sponsor: Victoys
+
 Package: com.victoys.dachangjing
 Version: 1.0
 Architecture: iphoneos-arm
@@ -412,6 +428,23 @@ Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
 Name: 大番号破解
 Sponsor: Victoys
 
+Package: com.victoys.fix
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: mobilesubstrate
+Filename: debs/imessage.deb
+Size: 7538
+MD5sum: 1bba8b8b8151d67948a4bba3f11b5634
+SHA1: 8d5dc2d475f01e8dc4a3ae31eb046f4535751a42
+SHA256: 6f6050693123c6856a4429dbb5e39d73e1fec817b50ebd2e8100124aef569cd6
+Section: Tweaks
+Description: 此补丁修复了最近报道iMessage的bug，该bug会永久破坏手机系统，必须刷机才能恢复恢复。
+Author: Victoys
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Name: iMessage修复Bug
+Sponsor: Victoys
+
 Package: com.victoys.fqhook
 Version: 1.0
 Architecture: iphoneos-arm
@@ -429,6 +462,36 @@ Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
 Name: 黄瓜生活社区
 Sponsor: Victoys
 
+Package: com.victoys.hgspvip
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: mobilesubstrate
+Filename: debs/hgspvip.deb
+Size: 15798
+MD5sum: 28f2a39fe51d95fe932edd316452924e
+SHA1: 364c6fb04e1da35c5dfa2dd3518908402e50bb01
+SHA256: 66de36ae0b0708bedbc98a333898fcfd96cdcac36568a26fe6b6e2785398681c
+Section: Tweaks
+Description: 黄瓜视频无需VIP视频随意看
+Author: Victoys
+Name: 黄瓜视频破解
+
+Package: com.victoys.hlspcraxk
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: mobilesubstrate
+Filename: debs/huli.deb
+Size: 6420
+MD5sum: 195b0e69953b353bbddde3f9aa2a8ddf
+SHA1: 774525849625afdb7973ff687a673b2cfd628a6c
+SHA256: e11bff04363d2913411b68b8af72e0a5c965518121aa99f904865ff2e2e700b0
+Section: Tweaks
+Description: 狐狸视频随意看
+Author: Victoys
+Name: 狐狸视频破解
+
 Package: com.victoys.phone
 Version: 1.0
 Architecture: iphoneos-arm
@@ -444,6 +507,24 @@ Section: Tweaks
 Description: 破解电话助手验证
 Author: Victoys
 Name: 电话助手破解
+
+Package: com.victoys.ymzbcrack
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: mobilesubstrate
+Filename: debs/yueman.deb
+Size: 13154
+MD5sum: 8c04be21c2828a508144d6a36e8a9a84
+SHA1: 97bb58e553298a7c376abd03ed909dcc3778c2b6
+SHA256: 8b7b3fd6fd87411061b38273b9ae720a76df72ec48626fb7aee50bf625df353b
+Section: Tweaks
+Description: 月漫直播破解门票房，付费房，VIP房，密码房
+A12: 1
+Author: Victoys
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Name: 月漫直播破解
+Sponsor: Victoys
 
 Package: com.victoys.youku
 Version: 1.0
