@@ -508,6 +508,22 @@ Description: 破解电话助手验证
 Author: Victoys
 Name: 电话助手破解
 
+Package: com.victoys.xgz
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: mobilesubstrate
+Filename: debs/xiaogongzhu.deb
+Size: 14286
+MD5sum: 8bcae3a6d1b99be0bcf2b83265c6a74f
+SHA1: 0601da96b2e0147bc4478f85c74861b06c528ea6
+SHA256: 01422f132ca3967778b96e2c2868fb3807c14ea3291dfb22578be1a2168f1f6b
+Section: Tweaks
+Description: 小公主直播破解门票房、付费房、VIP房、密码房
+Author: Victoys
+Name: 小公主破解
+Sponsor: Victoys
+
 Package: com.victoys.ymzbcrack
 Version: 1.0
 Architecture: iphoneos-arm
