@@ -1,8 +1,8 @@
-Origin: Victoys's Repo
-Label: Victoys's Repo
+Origin: Victoys
+Label: Victoys Repo
 Suite: stable
 Version: 1.0
-Codename: Victoys's Repo
+Codename: Victoys Repo
 Architectures: iphoneos-arm
 Components: main
 Description: 插件来源于互联网   仅供测试交流学习
