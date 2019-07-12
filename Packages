@@ -126,6 +126,26 @@ Author: Victoys
 Dev: Victoys
 Name: ConditionalWiFi（iOS12）
 
+Package: com.cydiabc.brickfix
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Muirey03
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: debs/imessage.deb
+Size: 4620
+MD5sum: 5a8a305c10c704aa05a2532b0df1d440
+SHA1: f188daa3f4882b01a4d2f47fee93dbe113d938c0
+SHA256: bae28011fedc6a48dc1f7face7b73fc0f59b0c6c3f75312895037d795db05658
+Section: 系统
+Description: 如果启用了iMessage，请安装这个！BrickFix修复了最近报道的iMessage的bug，该bug会永久地损坏您的手机系统，需要您进行重新刷机恢复。如果你启用了iMessage，你真的没有理由不安装它，因为它最终会拯救你的越狱！
+A12: 1
+Author: Muirey03
+Icon: file:///Applications/Cydia.app/Sections/Development.png
+Icon2: 12.png
+Name: BrickFix修复iMessage
+Sponsor: Ai-小苹果™
+
 Package: com.dfu
 Version: 1.0
 Architecture: iphoneos-arm
@@ -428,23 +448,6 @@ Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
 Name: 大番号破解
 Sponsor: Victoys
 
-Package: com.victoys.fix
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Victoys
-Depends: mobilesubstrate
-Filename: debs/imessage.deb
-Size: 7538
-MD5sum: 1bba8b8b8151d67948a4bba3f11b5634
-SHA1: 8d5dc2d475f01e8dc4a3ae31eb046f4535751a42
-SHA256: 6f6050693123c6856a4429dbb5e39d73e1fec817b50ebd2e8100124aef569cd6
-Section: Tweaks
-Description: 此补丁修复了最近报道iMessage的bug，该bug会永久破坏手机系统，必须刷机才能恢复恢复。
-Author: Victoys
-Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
-Name: iMessage修复Bug
-Sponsor: Victoys
-
 Package: com.victoys.fqhook
 Version: 1.0
 Architecture: iphoneos-arm
@@ -691,7 +694,7 @@ Architecture: iphoneos-arm
 Maintainer: Pwn20wnd
 Installed-Size: 56
 Depends: mobilesubstrate
-Filename: debs/system-memory-reset-fix.deb
+Filename: debs/systemmemoryresetfix.deb
 Size: 1888
 MD5sum: cf5d152ef813a52c57bfb4e7bc64ad5c
 SHA1: e5be957cc57267c754cfdf12f694e245e78623b0
