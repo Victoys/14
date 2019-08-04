@@ -378,6 +378,21 @@ Description: 破解电话助手验证
 Author: Victoys
 Name: 电话助手破解
 
+Package: com.victoys.systeminfo
+Version: 2.2.1
+Architecture: iphoneos-arm
+Maintainer: ARX8x
+Depends: mobilesubstrate
+Filename: debs/systeminfo.deb
+Size: 526154
+MD5sum: 6bb9ffa520f55de0982286337d188df1
+SHA1: 1b1885f3eecdc76fd746c00384aacaa0b1e32469
+SHA256: 4b113a0543e979877f15a3f1fed547dfd065cd4e4c847c46d50667c415bc9776
+Section: Tweaks
+Description: System information in Settings app > General > About, and other sections. Set boot-nonce, save shsh, battery info etc
+Author: ARX8x
+Name: System Info
+
 Package: com.ythook
 Version: 1.0
 Architecture: iphoneos-arm
