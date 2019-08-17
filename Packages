@@ -299,6 +299,66 @@ Description: 开启来电归属地、T9拨号
 Author: Victoys
 Name: SuDial
 
+Package: com.victoys.crackerxi
+Version: 1.1.8
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>= 11.0), ldid (>=2.0)
+Filename: debs/crackerxi.deb
+Size: 9958018
+MD5sum: 7a7fff38444e03398e884778fdda8826
+SHA1: 564f32b8168b0cd26b97bdbf0afc28bd1e017445
+SHA256: f5dadb2a413ae195234ea457a34ca6e1f972e4fc0459ee80fb7d26f7cf3c1091
+Section: Tweaks
+Description: 解包App，制作越狱版ipa必备插件
+Author: Victoys
+Name: CrackerXI+
+
+Package: com.victoys.dcj
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: mobilesubstrate
+Filename: debs/dachangjing.deb
+Size: 15832
+MD5sum: 60e7c5de65aa25f7ec564967257c7e05
+SHA1: 50c882b344d61a237674b638af008f9d74ae11e4
+SHA256: d3441f2caad17297ca9adcef3815468d6e35bf91d377fd5388678ef5004a5fb7
+Section: Tweaks
+Description: 大长精开启无限次数观看所有视频
+Author: Victoys
+Name: 大长精破解
+
+Package: com.victoys.deleteforever
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>= 9.0), mobilesubstrate, preferenceloader
+Filename: debs/deleteforever.deb
+Size: 45904
+MD5sum: 7c79cbc714d851e370777853fa813c25
+SHA1: bd20a6123da36453c1386690d0798473472db957
+SHA256: a8e6eb8412955b5341c1582058262db3ff08364fcb04cc01ef9ac5f5dc5f55bf
+Section: Tweaks
+Description: 删除照片时候添加彻底删除按钮
+Author: Victoys
+Name: DeleteForever
+
+Package: com.victoys.dfh
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: mobilesubstrate
+Filename: debs/dafanhao.deb
+Size: 15820
+MD5sum: 27db92fcb33d1468697562b7705c159a
+SHA1: 869b761a746873d1caa72270c69b1ec5f8c37584
+SHA256: 2b449e4f13c68662961d945253e24c02721e53798104dcd80a821f7aa669b682
+Section: Tweaks
+Description: 大番号开启无限次数观看
+Author: Victoys
+Name: 大番号破解
+
 Package: com.victoys.fqhook
 Version: 1.0
 Architecture: iphoneos-arm
@@ -449,25 +509,25 @@ Depiction: http://cydia.saurik.com/info/mobilesubstrate/
 Name: Cydia Substrate
 
 Package: net.angelxwind.appsyncunified
-Version: 32.0
+Version: 41.0-NoA12
 Architecture: iphoneos-arm
 Maintainer: Karen/あけみ <karen@akemi.ai>
 Installed-Size: 368
-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 12.1.2)
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 12.3.1)
 Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178
 Replaces: us.hackulo.appsync50
 Provides: appsync
 Filename: debs/appsyncunified.deb
-Size: 33850
-MD5sum: 2ac16e733938592a0a85744d3d9c5ad4
-SHA1: da8cf554312b1eaf3b17f2b526a4ca081cddea71
-SHA256: 5707c9b8b3000e1268184599aaeb48c49f4c23e2c6cba44f12620b8fa116db9f
+Size: 33864
+MD5sum: 2ddb1c2309b888c5e9cdb60d78d98ad0
+SHA1: d2d3e25724e5039d40576015d5971273b7bd09f7
+SHA256: 5397168f3182151d81f57984d975eadc4acc8e38952e6fa0f5553a769436799a
 Section: Tweaks
 Homepage: https://cydia.akemi.ai/
 Description: Enables the ability to install unsigned/fakesigned iOS applications.
 Author: Linus Yang, Karen/あけみ <karen@akemi.ai>
 Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified
-Name: AppSync Unified
+Name: AppSync Unified (NO A12 SUPPORT)
 
 Package: net.angelxwind.stash841
 Version: 1.0
