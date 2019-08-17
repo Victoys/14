@@ -299,6 +299,23 @@ Description: 开启来电归属地、T9拨号
 Author: Victoys
 Name: SuDial
 
+Package: com.victoys.appsync
+Version: 41.0
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 12.3.1)
+Replaces: us.hackulo.appsync50
+Provides: appsync
+Filename: debs/appsyncunified.deb
+Size: 48782
+MD5sum: c8d2d744f345135343e1f521086af7c6
+SHA1: dd8ba27365a5c12ba2be88adb465ea21757e4eb0
+SHA256: da68494e6ac3e1111a4b1861663ee9ab47bb558f4582355b1b024055b8554bfe
+Section: Tweaks
+Description: 可直接安装使用越狱版App，不支持A12设备
+Author: Victoys
+Name: AppSync Unified
+
 Package: com.victoys.crackerxi
 Version: 1.1.8
 Architecture: iphoneos-arm
@@ -507,27 +524,6 @@ Description: powerful code insertion platform
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/mobilesubstrate/
 Name: Cydia Substrate
-
-Package: net.angelxwind.appsyncunified
-Version: 41.0-NoA12
-Architecture: iphoneos-arm
-Maintainer: Karen/あけみ <karen@akemi.ai>
-Installed-Size: 368
-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 12.3.1)
-Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178
-Replaces: us.hackulo.appsync50
-Provides: appsync
-Filename: debs/appsyncunified.deb
-Size: 33864
-MD5sum: 2ddb1c2309b888c5e9cdb60d78d98ad0
-SHA1: d2d3e25724e5039d40576015d5971273b7bd09f7
-SHA256: 5397168f3182151d81f57984d975eadc4acc8e38952e6fa0f5553a769436799a
-Section: Tweaks
-Homepage: https://cydia.akemi.ai/
-Description: Enables the ability to install unsigned/fakesigned iOS applications.
-Author: Linus Yang, Karen/あけみ <karen@akemi.ai>
-Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified
-Name: AppSync Unified (NO A12 SUPPORT)
 
 Package: net.angelxwind.stash841
 Version: 1.0
