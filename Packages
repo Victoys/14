@@ -300,17 +300,17 @@ Author: Victoys
 Name: SuDial
 
 Package: com.victoys.appsync
-Version: 41.0
+Version: 41.1
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 12.3.1)
 Replaces: us.hackulo.appsync50
 Provides: appsync
 Filename: debs/appsyncunified.deb
-Size: 48782
-MD5sum: c8d2d744f345135343e1f521086af7c6
-SHA1: dd8ba27365a5c12ba2be88adb465ea21757e4eb0
-SHA256: da68494e6ac3e1111a4b1861663ee9ab47bb558f4582355b1b024055b8554bfe
+Size: 48790
+MD5sum: eae87236ee6ec2f501092b7010840c24
+SHA1: 4fe2aa07fb59e104ad22fd600ccd7733cc02ca40
+SHA256: 00720a2138749917c8345cd761389f716e2bd731113f4e0e7e312caac1fbaad4
 Section: Tweaks
 Description: 可直接安装使用越狱版App，不支持A12设备
 Author: Victoys
@@ -439,6 +439,21 @@ Author: Victoys
 Name: iMessage修复Bug
 Sponsor: Victoys
 
+Package: com.victoys.jd
+Version: 0.1-5
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/jdquan.deb
+Size: 55738
+MD5sum: 1cd375e7912038f6001196116365e9df
+SHA1: 0c3961e318d8ea299f44933f7b811ca637739323
+SHA256: d296c90bc4d755507637bc677bbb259c4fdd0657a24aeb13d74828ad23074875
+Section: Tweaks
+Description: 自动显示京东商品历史最低价、历史最高价、有无内部优惠券
+Author: Victoys
+Name: 京东优惠券
+
 Package: com.victoys.phone
 Version: 1.0
 Architecture: iphoneos-arm
@@ -469,6 +484,21 @@ Section: Tweaks
 Description: System information in Settings app > General > About, and other sections. Set boot-nonce, save shsh, battery info etc
 Author: ARX8x
 Name: System Info
+
+Package: com.victoys.tb
+Version: 1.0-3
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/tbquan.deb
+Size: 87180
+MD5sum: cc62c4da37e9097d23a14123dd304749
+SHA1: 54e0ae83bb12e8d3f55e26712aca1f3ba3c3c26d
+SHA256: 302abceda672a18e597ec1d5c487d8841e19a22f30e25adf5f858dccf18aae73
+Section: Tweaks
+Description: 自动显示淘宝商品历史最低价、历史最高价、有无内部优惠券
+Author: Victoys
+Name: 淘宝优惠券
 
 Package: com.ythook
 Version: 1.0
