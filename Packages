@@ -46,23 +46,6 @@ Description: Displays useful information about your device's battery health
 Author: Victoys
 Name: BatteryLife
 
-Package: com.cemck.killx
-Version: 0.1.1-beta
-Architecture: iphoneos-arm
-Maintainer: Cem K
-Installed-Size: 104
-Depends: mobilesubstrate
-Filename: debs/killx.deb
-Size: 8324
-MD5sum: 103edbe0b35214543c41e66c0f68afd8
-SHA1: 2b0af331cbe76e8ae509c0b190c3997372dbde06
-SHA256: 385be25d0a707d11895951131594eb7bc0529da21675fa1965eff78c5f06a5d3
-Section: Tweaks
-Description: One swipe to kill them all!
-            Swipe down app switcher cards, to kill all apps.
-Author: Cem K
-Name: KillX
-
 Package: com.cokepokes.appstoreplusplus
 Version: 0.9.6-1
 Architecture: iphoneos-arm
@@ -246,24 +229,6 @@ Description: Make mDNSResponder care about /etc/hosts
 Author: PoomSmart
 Name: LetMeBlock
 
-Package: com.ryleyangus.libertylite
-Version: 0.2.10
-Architecture: iphoneos-arm
-Maintainer: Ryley Angus
-Installed-Size: 476
-Depends: mobilesubstrate, preferenceloader, applist
-Conflicts: com.ryleyangus.liberty
-Filename: debs/libertylite.deb
-Size: 46610
-MD5sum: de8005d35c2204becf725c327f68e1e5
-SHA1: 434f034c55b792f51216342afd04ab965a614570
-SHA256: 01574e57f52163b9c776c8ea86b03e511b3dcbc0918cdedef9ceedd71e23a9f8
-Section: Tweaks
-Description: A (lite) general purpose jailbreak detection bypass patch. Use the Liberty entry in the Settings app to block (most) apps from detecting your jailbreak. Disabling Substrate/Substitute is not supported, so certain apps (PayPal, HSBC HK) will still be problematic.
-Author: Ryley Angus
-Icon: file:///Library/PreferenceBundles/LibertyPref.bundle/LibertyPref.png
-Name: Liberty Lite
-
 Package: com.unlimapps.uaupdatetools
 Version: 1.0r-102
 Architecture: iphoneos-arm
@@ -331,21 +296,6 @@ Description: 解包App，制作越狱版ipa必备插件
 Author: Victoys
 Name: CrackerXI+
 
-Package: com.victoys.dcj
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Victoys
-Depends: mobilesubstrate
-Filename: debs/dachangjing.deb
-Size: 15832
-MD5sum: 60e7c5de65aa25f7ec564967257c7e05
-SHA1: 50c882b344d61a237674b638af008f9d74ae11e4
-SHA256: d3441f2caad17297ca9adcef3815468d6e35bf91d377fd5388678ef5004a5fb7
-Section: Tweaks
-Description: 大长精开启无限次数观看所有视频
-Author: Victoys
-Name: 大长精破解
-
 Package: com.victoys.deleteforever
 Version: 1.0
 Architecture: iphoneos-arm
@@ -360,21 +310,6 @@ Section: Tweaks
 Description: 删除照片时候添加彻底删除按钮
 Author: Victoys
 Name: DeleteForever
-
-Package: com.victoys.dfh
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Victoys
-Depends: mobilesubstrate
-Filename: debs/dafanhao.deb
-Size: 15820
-MD5sum: 27db92fcb33d1468697562b7705c159a
-SHA1: 869b761a746873d1caa72270c69b1ec5f8c37584
-SHA256: 2b449e4f13c68662961d945253e24c02721e53798104dcd80a821f7aa669b682
-Section: Tweaks
-Description: 大番号开启无限次数观看
-Author: Victoys
-Name: 大番号破解
 
 Package: com.victoys.fqhook
 Version: 1.0
@@ -392,6 +327,21 @@ Author: Victoys
 Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
 Name: 黄瓜生活社区
 Sponsor: Victoys
+
+Package: com.victoys.gpscheat
+Version: 1.1-5
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2)
+Filename: debs/gpscheat.deb
+Size: 223694
+MD5sum: abca3e7108bef1a2177f42117cd996f1
+SHA1: fac7016ac714f1b936110835186c299392b22528
+SHA256: 196e404ab1cca0f8e1518453782a2eb30a51d8d0b37d3ef13673ac85cd70f4ad
+Section: Tweaks
+Description: 可全局可扫街模式的虚拟定位
+Author: Victoys
+Name: GPSCheat
 
 Package: com.victoys.hgspvip
 Version: 1.0
@@ -454,6 +404,37 @@ Description: 自动显示京东商品历史最低价、历史最高价、有无�
 Author: Victoys
 Name: 京东优惠券
 
+Package: com.victoys.killx
+Version: 0.1.3
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>=11.0), mobilesubstrate
+Filename: debs/killx.deb
+Size: 8194
+MD5sum: a11a6adfd2f4becfeb31552ad03e4ca0
+SHA1: 3f098edc143341d538a445f50dded2db68eea44c
+SHA256: af967d79c48b93381817a0689ffd4c186b0c84d59d0ce0329c575191a327cf25
+Section: Tweaks
+Description: 下拉清除全部后台进程
+Author: Victoys
+Name: KillX
+
+Package: com.victoys.libertylite
+Version: 0.2.12
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: mobilesubstrate, preferenceloader, applist
+Conflicts: com.ryleyangus.liberty, com.ryleyangus.libertylite
+Filename: debs/libertylite.deb
+Size: 82216
+MD5sum: d5e58afa000f94d87941c57845dc5b16
+SHA1: cfef5775df253d379cac93afeb9a3f2bfec6372f
+SHA256: 5343adba423e5acfc1826b3831895040212da933e5781254f9af07be7d0a73a6
+Section: Tweaks
+Description: 屏蔽软件对越狱的检测
+Author: Victoys
+Name: Liberty Lite
+
 Package: com.victoys.phone
 Version: 1.0
 Architecture: iphoneos-arm
@@ -499,6 +480,21 @@ Section: Tweaks
 Description: 自动显示淘宝商品历史最低价、历史最高价、有无内部优惠券
 Author: Victoys
 Name: 淘宝优惠券
+
+Package: com.victoys.thunder
+Version: 1.4.0
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: mobilesubstrate
+Filename: debs/thunder.deb
+Size: 50172
+MD5sum: 9e6c4e21934c56dc5554598648ec6e84
+SHA1: 9ff6b54e4413518c0b09ce41d5039e3dcfdae83f
+SHA256: 0ba0906546053d6d85abb9b6a945253959924a2e197d49f88fe8206971d1cb58
+Section: Tweaks
+Description: 加速下载、屏蔽封号、多账户防T   最高支持版本v5.32（插件内有下载地址）
+Author: Victoys
+Name: 迅雷助手
 
 Package: com.ythook
 Version: 1.0
