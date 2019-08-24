@@ -268,14 +268,14 @@ Package: com.victoys.appsync
 Version: 41.1
 Architecture: iphoneos-arm
 Maintainer: Victoys
-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 12.3.1)
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100)
 Replaces: us.hackulo.appsync50
 Provides: appsync
 Filename: debs/appsyncunified.deb
-Size: 48790
-MD5sum: eae87236ee6ec2f501092b7010840c24
-SHA1: 4fe2aa07fb59e104ad22fd600ccd7733cc02ca40
-SHA256: 00720a2138749917c8345cd761389f716e2bd731113f4e0e7e312caac1fbaad4
+Size: 48780
+MD5sum: d858edd63f0300a0fe30eaddab5decc0
+SHA1: 198b57e1c68d12a4f599dc989ac229869c1cd670
+SHA256: d35cc237aa9b09bd7e425b05c1008da4b77a4ff94717d8a7a8f031d247987984
 Section: Tweaks
 Description: 可直接安装使用越狱版App，不支持A12设备
 Author: Victoys
