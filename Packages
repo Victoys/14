@@ -586,16 +586,16 @@ Author: None
 Name: Signing Certificate
 
 Package: system-memory-reset-fix
-Version: 1.0
+Version: 2.0
 Architecture: iphoneos-arm
 Maintainer: Pwn20wnd
-Installed-Size: 56
+Installed-Size: 104
 Depends: mobilesubstrate
 Filename: debs/systemmemoryresetfix.deb
-Size: 1888
-MD5sum: cf5d152ef813a52c57bfb4e7bc64ad5c
-SHA1: e5be957cc57267c754cfdf12f694e245e78623b0
-SHA256: 340f052351a83874fd44b999704ac0c1a5b32538388eeb6dad123bee250e0ae4
+Size: 2562
+MD5sum: 261806ddc1f65766c4ff1f9d15498dac
+SHA1: 783f4cc3d938e5e66cd18c25e8bcc4382ae97413
+SHA256: 0daeedda0bdfafc751665e7de321d5afc793aa02c879a498a013f38a9e03a32f
 Section: System
 Description: Prevent overnight userspace reboots triggered by mmaintenanced
 Author: Pwn20wnd
