@@ -451,6 +451,21 @@ Description: 破解电话助手验证
 Author: Victoys
 Name: 电话助手破解
 
+Package: com.victoys.psd
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: mobilesubstrate
+Filename: debs/pansidong.deb
+Size: 184696
+MD5sum: d6a1eb3055d596af129839a5756a8f1a
+SHA1: 69d1dda0dc02720bf2442098dec9c54fded51f22
+SHA256: 47148380f42fe7a0d4213a941a931c873229990738f3abb7fe5ea47d1d467825
+Section: Tweaks
+Description: 盘丝洞去广告、开启无限次数观看
+Author: Victoys
+Name: 盘丝洞
+
 Package: com.victoys.systeminfo
 Version: 2.2.1
 Architecture: iphoneos-arm
