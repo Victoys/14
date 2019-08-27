@@ -192,17 +192,17 @@ Author: Victoys
 Name: 酷我音乐Plus
 
 Package: com.matchstic.reprovision
-Version: 0.4.2
+Version: 0.4.3
 Architecture: iphoneos-arm
 Maintainer: Matt Clarke <matt@incendo.ws>
 Depends: firmware (>= 9.0)
 Replaces: com.matchstic.Extender-Installer
 Provides: com.matchstic.Extender-Installer
 Filename: debs/reprovision.deb
-Size: 10573694
-MD5sum: e01d764b70d8ad1a9cf35eae944962d4
-SHA1: 684dfff90782e30e1499abda4c2c8af5facd3bb2
-SHA256: 27d05d240aca105eb3bfaadacc0b00199733053d62bd6d9c469fdb3e808347dc
+Size: 10557620
+MD5sum: f7f8a2c02a60e9fc8bcc12f1531f9641
+SHA1: b9ac78207c7f8c8b358817d0f936a112ed12b889
+SHA256: fa57d1928f1b34a9580988b046b4157765c13bb33f86c9fa361ae9ae5a961754
 Section: System
 Priority: optional
 Homepage: https://github.com/Matchstic/Extender-Installer
@@ -510,6 +510,21 @@ Section: Tweaks
 Description: 加速下载、屏蔽封号、多账户防T   最高支持版本v5.32（插件内有下载地址）
 Author: Victoys
 Name: 迅雷助手
+
+Package: com.victoys.xjsp
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: mobilesubstrate
+Filename: debs/xiangjiaoshipin.deb
+Size: 185318
+MD5sum: df861a79344f09f268cfc228b98ee7b5
+SHA1: a1273882cfcc4a3bbee98a78674127c1480fc4c9
+SHA256: eab0b808472d93828069755bfe82016ed0a4e63fe9e9e95ea05185f427e23e48
+Section: Tweaks
+Description: 香蕉视频商店版无限观看
+Author: Victoys
+Name: 香蕉视频商店版
 
 Package: com.ythook
 Version: 1.0
