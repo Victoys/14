@@ -192,17 +192,17 @@ Author: Victoys
 Name: 酷我音乐Plus
 
 Package: com.matchstic.reprovision
-Version: 0.4.3
+Version: 0.4.4
 Architecture: iphoneos-arm
 Maintainer: Matt Clarke <matt@incendo.ws>
 Depends: firmware (>= 9.0)
 Replaces: com.matchstic.Extender-Installer
 Provides: com.matchstic.Extender-Installer
 Filename: debs/reprovision.deb
-Size: 10557620
-MD5sum: f7f8a2c02a60e9fc8bcc12f1531f9641
-SHA1: b9ac78207c7f8c8b358817d0f936a112ed12b889
-SHA256: fa57d1928f1b34a9580988b046b4157765c13bb33f86c9fa361ae9ae5a961754
+Size: 10685892
+MD5sum: 079b4a3b7d95c79b5cddf236b5508910
+SHA1: a0b7b0a0865e72032065e25818778b85815ecb37
+SHA256: 7e6af67005fd55ed13b2a2a6c4a24728d4277e7b3a29b118a6497a0f1e39793a
 Section: System
 Priority: optional
 Homepage: https://github.com/Matchstic/Extender-Installer
@@ -482,15 +482,15 @@ Author: ARX8x
 Name: System Info
 
 Package: com.victoys.tb
-Version: 1.0-3
+Version: 1.0-5
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 5.0), mobilesubstrate
 Filename: debs/tbquan.deb
-Size: 87180
-MD5sum: cc62c4da37e9097d23a14123dd304749
-SHA1: 54e0ae83bb12e8d3f55e26712aca1f3ba3c3c26d
-SHA256: 302abceda672a18e597ec1d5c487d8841e19a22f30e25adf5f858dccf18aae73
+Size: 85400
+MD5sum: 6021094e7ce569dcfba5c28a736648f5
+SHA1: ed5bb97c5ef6db50d6f9fe7317a399d5cfeba6fa
+SHA256: 7d4c406cbe196edecc2b7b91d4e4be65e1476cafde947af88bc79b851ed472f3
 Section: Tweaks
 Description: 自动显示淘宝商品历史最低价、历史最高价、有无内部优惠券
 Author: Victoys
