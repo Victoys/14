@@ -1,19 +1,3 @@
-Package: com.ps.letmeblock
-Version: 0.0.1
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 136
-Depends: mobilesubstrate, firmware (>= 12.0)
-Filename: debs/letmeblock.deb
-Size: 6256
-MD5sum: 82a7b56d41c96ff409d6112757d19e28
-SHA1: 70b44e71da3d7a3c9d2e5f853e477c39ce94c850
-SHA256: d724814aedfe2b128c3789b6b341a941de5c3209c98e22811fda4a46d10c15bf
-Section: Tweaks
-Description: Make mDNSResponder care about /etc/hosts
-Author: PoomSmart
-Name: LetMeBlock
-
 Package: com.saurik.substrate
 Version: 0.9.7033
 Architecture: iphoneos-arm
@@ -24,10 +8,10 @@ Conflicts: me.devbug.msreloadfix, com.r3pwn.startsubstrate, com.ragemasta.bootst
 Breaks: uikittools (<< 1.1.1), com.mywi4 (<= 5.03.2), com.phoenix.pandoracontrols (<= 1.1.0-1), com.intelliborn.intelliscreenx (<= 1.0.110), com.evad3rs.evasi0n7 (<< 0.2)
 Replaces: cycript (<= 0.9.594)
 Filename: debs/substrate.deb
-Size: 1727812
-MD5sum: 5c4aa5a08b1a8d5d59dedaf739a91f5c
-SHA1: 3b776359364a4d2a768179b6e54435cc00fed7d9
-SHA256: d705a6d4f832411decbdeda0ddc9401cbf27ec0e22b16e4f14e43b125f10825f
+Size: 1711832
+MD5sum: ef241019607165c565ab047b3a456b10
+SHA1: a3c4841e6b068c33600ea2f7aa37fed26fba9fa4
+SHA256: 0b3c59ca49ef2560be355f1475d3b02725879d6c6a146773831aceb1702d83cb
 Section: System
 Priority: optional
 Description: powerful code insertion platform
@@ -43,11 +27,11 @@ Pre-Depends: dpkg (>= 1.14.25-8)
 Conflicts: me.devbug.msreloadfix, com.r3pwn.startsubstrate, com.ragemasta.bootstrap
 Breaks: uikittools (<< 1.1.1), com.mywi4 (<= 5.03.2), com.phoenix.pandoracontrols (<= 1.1.0-1), com.intelliborn.intelliscreenx (<= 1.0.110), com.evad3rs.evasi0n7 (<< 0.2)
 Replaces: cycript (<= 0.9.594)
-Filename: debs/mobilesubstrate.deb
-Size: 900
-MD5sum: 2158a2c9dcb66e4274aee3b7a6e91aa2
-SHA1: c25bbe1f2f1c719e6115e67f7339e62497b2cec0
-SHA256: 1698ae512713654d1e5f3fcbbc5f09a6be2fda66b3d03f992fa66c252a53e452
+Filename: debs/mobilesubstratedummy.deb
+Size: 964
+MD5sum: 7efc43047cb4354b4cbeb3f135fde566
+SHA1: 596cc3ad7b15ca949389d36e5f8979f90c05ed88
+SHA256: 3915f36f0aa1354ad550f8ee83f7f23e049eb10797f9b815b0eb137faac22064
 Section: System
 Priority: optional
 Description: powerful code insertion platform
@@ -62,10 +46,10 @@ Installed-Size: 12
 Depends: jailbreak-resources (>=1.0~b4)
 Conflicts: jailbreak-resources (<<1.0~b4)
 Filename: debs/signingcertificate.deb
-Size: 6298
-MD5sum: c1e65bcad1632d1bfc5c120dcf2ad8ca
-SHA1: de7bdc6cf05dd313d12fa2c4f698f566a602c4e3
-SHA256: 143e5e9994d82f9165b39933ee8aa435f3afdfb864dfa80e8e529a1b468684f1
+Size: 6380
+MD5sum: 5d822544614467d2b46e96f1f9db5463
+SHA1: 17b532a81ee3ff41414d99bb997546e4d94d0dba
+SHA256: bf2b7443aec952317eba1acaae5cf93fbab42c0536d7ddcfd8531a51d92b492a
 Section: System
 Description: A Certificate to sign things with
 Author: None
@@ -78,10 +62,10 @@ Maintainer: Pwn20wnd
 Installed-Size: 104
 Depends: mobilesubstrate
 Filename: debs/systemmemoryresetfix.deb
-Size: 6308
-MD5sum: d5e5c4f5fed6a443aed5fbbf00d59064
-SHA1: b5c0dde021748fa943508df69b479ad2af434e2c
-SHA256: e93a1aa20585abf8ea40cb8b662712d21691fa448761255be77a3bf03135d7b7
+Size: 6376
+MD5sum: 41f78ac39f387350b2b49f58b7e89cef
+SHA1: c96c0d41409b759476f6d2069ddb1282c474b91a
+SHA256: 79babf9b884b627059f6598f9af9237a28284b6c698ab7e7fcb206e95a2f7413
 Section: System
 Description: Prevent overnight userspace reboots triggered by mmaintenanced
 Author: Pwn20wnd
@@ -96,10 +80,10 @@ Conflicts: science.xnu.injector
 Replaces: science.xnu.injector
 Provides: trustinjector, science.xnu.injector
 Filename: debs/trustinjector.deb
-Size: 44912
-MD5sum: 1720c204eb070c7f1a0e5efcd593d9ad
-SHA1: cd55595751461043ad07f72a8d21a06143e07c73
-SHA256: f45cb3e85c61d6e392ee66d1a4cec2e95058a335035d9784bb7c98fbb5d9f89f
+Size: 45084
+MD5sum: 410161468d8c0bbe6a40f2e92d651d04
+SHA1: cce6adcc4520a68582bd295cf5f76ff2746e7894
+SHA256: 2c0551ae0305ed577b01a7cd8f83433a449fc45f619dfe46b8a152e735b7ca05
 Section: System
 Description: Inject files to kernel trust cache
 Tag: role::hacker

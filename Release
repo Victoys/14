@@ -1,9 +1,9 @@
-Origin: unc0ver
+Origin: unc0ver Repo
 Label: Victoys
 Suite: stable
 Version: 1.0
 Codename: Victoys
 Architectures: iphoneos-arm
 Components: main
-Description: iOS 12.4 Package
+Description: iOS 12.0-12.4 Package
 
