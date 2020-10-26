@@ -1,68 +1,151 @@
-Package: com.ps.letmeblock
-Version: 0.0.1
+Package: Flex3beta
+Version: 1:3~Beta97
 Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 136
-Depends: mobilesubstrate, firmware (>= 12.0)
-Filename: debs/letmeblock.deb
-Size: 6256
-MD5sum: 82a7b56d41c96ff409d6112757d19e28
-SHA1: 70b44e71da3d7a3c9d2e5f853e477c39ce94c850
-SHA256: d724814aedfe2b128c3789b6b341a941de5c3209c98e22811fda4a46d10c15bf
+Maintainer: John Coates
+Depends: mobilesubstrate, firmware (>=12.2) | org.swift.libswift (>=5.0), firmware (>= 9.0)
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Filename: debs/Flex3Beta.deb
+Size: 14371310
+MD5sum: 1f450b09787761c0a32b802652b4f897
+SHA1: f23e581e4e25b828ee69106bfb228798af4c6cce
+SHA256: 7a560b2c3387343d3e37027bb785263409bc60b6bf90b134704988b9fc519f9d
 Section: Tweaks
-Description: Make mDNSResponder care about /etc/hosts
-Author: PoomSmart
-Name: LetMeBlock
+Description: Develop your own tweaks and share them on the Flex Community Cloud
+Author: John Coates
+Name: Flex 3 Beta
+Recommended: com.rpetrich.rocketbootstrap
 
-Package: signing-certificate
-Version: 0.0.1
+Package: com.exile90.icleanerpro
+Version: 7.9.0~beta1
 Architecture: iphoneos-arm
-Maintainer: None
-Installed-Size: 12
-Depends: jailbreak-resources (>=1.0~b4)
-Conflicts: jailbreak-resources (<<1.0~b4)
-Filename: debs/signingcertificate.deb
-Size: 6298
-MD5sum: c1e65bcad1632d1bfc5c120dcf2ad8ca
-SHA1: de7bdc6cf05dd313d12fa2c4f698f566a602c4e3
-SHA256: 143e5e9994d82f9165b39933ee8aa435f3afdfb864dfa80e8e529a1b468684f1
-Section: System
-Description: A Certificate to sign things with
-Author: None
-Name: Signing Certificate
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: debs/icleanerpro.deb
+Size: 4771624
+MD5sum: bf17296f5a9e00ab1a8ceecf6b0fa3c0
+SHA1: 3bcd8e0eab63024c892a66416575becd0b55d4fb
+SHA256: e14bbc7b1c0b5a54afd0780703828d9e6122f488960a65ac631990dd2619948f
+Section: Utilities
+Homepage: http://ib-soft.net/icleaner
+Description: The first real iOS system cleaner & optimizer
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: file:///Applications/iCleaner.app/Icon.png
+Name: iCleaner Pro
 
-Package: system-memory-reset-fix
-Version: 2.0
+Package: com.julioverne.cydown
+Version: 7.1.1
 Architecture: iphoneos-arm
-Maintainer: Pwn20wnd
-Installed-Size: 104
+Maintainer: Julio
+Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
+Filename: debs/cydown.deb
+Size: 4358056
+MD5sum: cd0eb2e0a8ebbd2f6a052fa596f03a89
+SHA1: ae29c69e57da2d62ff41ccd77ead0af1fc14e3ab
+SHA256: 47027504dc6b13bde402e5423fd3f06d6c20b94b9b94d274677753743cc692be
+Section: Tweaks
+Homepage: http://twitter.com/ijulioverne
+Description: Cydia Download Manager & Extra Features!
+Author: julioverne <julioverne@me.com>
+Depiction: http://julio.hackyouriphone.org/description.html?id=com.julioverne.cydown
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
+Name: CyDown
+
+Package: com.victoys.fakepicture
+Version: 1.6.1
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>= 13.0), mobilesubstrate (>= 0.9.5000), applist
+Filename: debs/fakepicture.deb
+Size: 3533122
+MD5sum: f58ea58495d349c70122fca8a6ddbb61
+SHA1: 3cf7c57ab33092050081a3abe08452e723016586
+SHA256: e0cce6a8acb234115d9abc56ecc3e024b6a45a404314e618865a65f3b671984f
+Section: Tweaks
+Description: 替换应用摄像头拍照的图片，让应用得到任意设置的照片。
+Author: Victoys
+Name: 虚拟拍照
+
+Package: com.victoys.jd
+Version: 0.2-2
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>= 11.0), mobilesubstrate
+Filename: debs/jd.deb
+Size: 112420
+MD5sum: d542586abc0e008b0d12dbd1e6514ed4
+SHA1: fbc078e4cb0c201a8012a095c85c56dd0299f28a
+SHA256: 94a59274f27bcac4df5b783df6ee106dc335139a5f88ca4b6f6580888ba88c10
+Section: Tweaks
+Description: 自动显示京东商品历史最低价、历史最高价、内部优惠券
+Author: Victoys
+Name: 京东优惠券
+
+Package: com.victoys.libertylite
+Version: 0.2.12
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: mobilesubstrate, preferenceloader, applist
+Conflicts: com.ryleyangus.liberty, com.ryleyangus.libertylite
+Filename: debs/libertylite.deb
+Size: 82216
+MD5sum: d5e58afa000f94d87941c57845dc5b16
+SHA1: cfef5775df253d379cac93afeb9a3f2bfec6372f
+SHA256: 5343adba423e5acfc1826b3831895040212da933e5781254f9af07be7d0a73a6
+Section: Tweaks
+Description: 屏蔽软件对越狱的检测
+Author: Victoys
+Name: Liberty Lite
+
+Package: com.victoys.localiapstore
+Version: 1.4-1
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>= 5.1), mobilesubstrate, preferenceloader
+Filename: debs/localiapstore.deb
+Size: 42316
+MD5sum: d9112b9d607749c285af505f8c0ecf4a
+SHA1: ee92ecc35c595eb6aabd8307c0bbb42b234a1fe1
+SHA256: fa4b7f87075d4ac6efdd6b2e3a5c108544f7143fbc50cc00f9ed30c662d99dbf
+Section: Tweaks
+Description: 软件内购破解、已完全汉化
+Author: Victoys
+Dev: Victoys
+Name: LocalIAPStore
+Sponsor: Victoys
+
+Package: com.victoys.netcontrol
+Version: 1.0.1-8
+Architecture: iphoneos-arm
+Maintainer: Victoys
 Depends: mobilesubstrate
-Filename: debs/systemmemoryresetfix.deb
-Size: 6308
-MD5sum: d5e5c4f5fed6a443aed5fbbf00d59064
-SHA1: b5c0dde021748fa943508df69b479ad2af434e2c
-SHA256: e93a1aa20585abf8ea40cb8b662712d21691fa448761255be77a3bf03135d7b7
-Section: System
-Description: Prevent overnight userspace reboots triggered by mmaintenanced
-Author: Pwn20wnd
-Name: System Memory Reset Fix
+Filename: debs/netcontrol.deb
+Size: 693972
+MD5sum: 00d39fc3db346c725694f078da262578
+SHA1: eabf5babb1540e386e1e07f03265d882f999751b
+SHA256: 3528f96f2bcd293416484e65d4b7036fcb8a45325b3d766c750483c6d0e278ce
+Section: Utilities
+Description: 激活国行iOS13自带网络开关
+Author: Victoys
+Dev: Victoys
+Name: NetControl
+Sponsor: Victoys
 
-Package: trustinjector
-Version: 0.4~b5
+Package: com.victoys.tb
+Version: 2.1.0
 Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 252
-Conflicts: science.xnu.injector
-Replaces: science.xnu.injector
-Provides: trustinjector, science.xnu.injector
-Filename: debs/trustinjector.deb
-Size: 44912
-MD5sum: 1720c204eb070c7f1a0e5efcd593d9ad
-SHA1: cd55595751461043ad07f72a8d21a06143e07c73
-SHA256: f45cb3e85c61d6e392ee66d1a4cec2e95058a335035d9784bb7c98fbb5d9f89f
-Section: System
-Description: Inject files to kernel trust cache
-Tag: role::hacker
-Author: Sam Bingner <maintainer@sbdhi.com>
-Name: Trust Cache Injector
+Maintainer: Victoys
+Depends: firmware (>= 11.0), mobilesubstrate
+Filename: debs/tb.deb
+Size: 131998
+MD5sum: d8643efb28cf86094dfed6f95bada189
+SHA1: 216a49d62ca909183cd7997f6b0edd712400d93b
+SHA256: 09e3ed88b84cf2f5877c0bca6c380615eeae3821e71dffb77b4f4533a4864365
+Section: Tweaks
+Description: 自动显示淘宝商品历史最低价、历史最高价、内部优惠券
+Author: Victoys
+Name: 淘宝优惠券
 
