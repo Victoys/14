@@ -17,17 +17,17 @@ Name: Flex 3 Beta
 Recommended: com.rpetrich.rocketbootstrap
 
 Package: com.exile90.icleanerpro
-Version: 7.9.0~beta1
+Version: 7.9.0
 Architecture: iphoneos-arm
 Maintainer: Ivano Bilenchi <support@ib-soft.net>
 Depends: firmware (>= 4.0), findutils, apt | apt7
 Conflicts: org.altervista.exilecom.icleaner
 Replaces: org.altervista.exilecom.icleaner
 Filename: debs/icleanerpro.deb
-Size: 4771624
-MD5sum: bf17296f5a9e00ab1a8ceecf6b0fa3c0
-SHA1: 3bcd8e0eab63024c892a66416575becd0b55d4fb
-SHA256: e14bbc7b1c0b5a54afd0780703828d9e6122f488960a65ac631990dd2619948f
+Size: 4772402
+MD5sum: 0ce90140ef3ebb38c8fdecda21f9eb7c
+SHA1: 4e9bf12c53b8e2ac07c2d4e5d21219739fe9f2ba
+SHA256: 7b35413010d2afc0c3df2d36d51aca3115a88a53bb2122fa52558e89e3205195
 Section: Utilities
 Homepage: http://ib-soft.net/icleaner
 Description: The first real iOS system cleaner & optimizer
