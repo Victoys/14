@@ -16,6 +16,25 @@ Author: John Coates
 Name: Flex 3 Beta
 Recommended: com.rpetrich.rocketbootstrap
 
+Package: com.dave1482.powerapp
+Version: 6.0
+Architecture: iphoneos-arm
+Maintainer: Dave1482 <dave1482@dave1482.com>
+Pre-Depends: firmware (>= 8.0), system-cmds, shell-cmds, coreutils
+Conflicts: com.dave1482.powerappbeta
+Filename: debs/powerapp.deb
+Size: 411682
+MD5sum: 491e00e0988b57d6b54e50131001ed6e
+SHA1: 7a6567dbf322e7dc9b5569b41f96b5ffe6bb9269
+SHA256: 94ac9ae7b124a9c20252c3c19dcd31e2170855549164187b8088e1e428c3d427
+Section: Utilities
+Description: Reboot, Shutdown, Respring, go into Safemode
+Tag: purpose::uikit, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13, compatible::ios14, compatible::ios15
+Author: Dave1482 <dave1482@dave1482.com>
+Depiction: https://powerapp.dave1482.com/
+Icon: file:///Applications/PowerApp.app/Icon-60.png
+Name: PowerApp
+
 Package: com.exile90.icleanerpro
 Version: 7.9.0
 Architecture: iphoneos-arm
@@ -75,6 +94,36 @@ Depiction: http://incendo.ws/repo/depictions/com.matchstic.reprovision.html
 Dev: Matt Clarke <matt@incendo.ws>
 Icon: file:///Applications/ReProvision.app/AppIcon60x60@2x.png
 Name: ReProvision
+
+Package: com.rileytestut.altdaemon
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Riley Testut
+Filename: debs/altdaemon.deb
+Size: 597622
+MD5sum: 83660c2d5119ac6ecce72236b27cfae4
+SHA1: 3c7ce20ff72c17f17a1415b14534a9be3fc41ca1
+SHA256: 1f5b35f4c402f6abab69e1833b260a4dfac156bbe1f9807b7aec4cd22665cc95
+Section: System
+Homepage: https://altstore.io
+Description: AltDaemon allows AltStore to install and refresh apps without a computer.
+Author: Riley Testut
+Name: AltDaemon
+
+Package: com.victoys.aysx
+Version: 0.1-5
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: mobilesubstrate
+Filename: debs/aysx.deb
+Size: 48366
+MD5sum: 6f10ce2df2107ea1fddfd23f09a17f4a
+SHA1: 9d120c41284f996f51284d477b7aa84d38e160c9
+SHA256: 555675403b03667c997fd3c6880dc0e30aeff1d0f78fef6471d8f1a01752e2fa
+Section: Tweaks
+Description: 爱阅书香开启会员特权
+Author: Victoys
+Name: 爱阅书香
 
 Package: com.victoys.fakepicture
 Version: 1.6.1
