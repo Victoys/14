@@ -206,15 +206,15 @@ Name: NetControl
 Sponsor: Victoys
 
 Package: com.victoys.tb
-Version: 2.1.0
+Version: 2.1.1
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 11.0), mobilesubstrate
 Filename: debs/tb.deb
-Size: 131998
-MD5sum: d8643efb28cf86094dfed6f95bada189
-SHA1: 216a49d62ca909183cd7997f6b0edd712400d93b
-SHA256: 09e3ed88b84cf2f5877c0bca6c380615eeae3821e71dffb77b4f4533a4864365
+Size: 63108
+MD5sum: 4995007cc9db6bddc59cd22923671ccf
+SHA1: 8d8bf6307a7dca63df16858d7a43a1c2cbc227bd
+SHA256: 85f3ca45c3f5b54b37da7ca6d93d15a32729832c8f5b9b9382f5973cb44867ac
 Section: Tweaks
 Description: 自动显示淘宝商品历史最低价、历史最高价、内部优惠券
 Author: Victoys
