@@ -206,15 +206,15 @@ Name: NetControl
 Sponsor: Victoys
 
 Package: com.victoys.shadow
-Version: 2.0.21
+Version: 2.0.20
 Architecture: iphoneos-arm
 Maintainer: Victoys
-Depends: mobilesubstrate, applist, preferenceloader, com.rpetrich.rocketbootstrap, ws.hbang.common
+Depends: firmware (>=8.0), mobilesubstrate, ws.hbang.common, applist, preferenceloader
 Filename: debs/shadow.deb
-Size: 110892
-MD5sum: f873d7892e60eb5493418bedf5563a43
-SHA1: 62bcc724356ccc2877a7c9933dc7f4255e8a4d48
-SHA256: 2a0d7a2bb11b271d69baa8fcb0b4a6ff40f2544d355b8694f685334074215207
+Size: 110620
+MD5sum: dfa657e788451dc00cac923f398d7041
+SHA1: 3c1f59d88d1720c2ce9306db915ffc80a9d8b4e9
+SHA256: d2fa90d20be49b012560babfe78344bd91b4981d934a108cf70a257f8296e13d
 Section: Tweaks
 Description: 多功能屏蔽越狱检测插件，打开App无延迟，屏蔽的App所有插件注入都失效
 Author: Victoys
