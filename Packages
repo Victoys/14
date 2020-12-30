@@ -205,40 +205,35 @@ Dev: Victoys
 Name: NetControl
 Sponsor: Victoys
 
+Package: com.victoys.shadow
+Version: 2.0.21
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: mobilesubstrate, applist, preferenceloader, com.rpetrich.rocketbootstrap, ws.hbang.common
+Filename: debs/shadow.deb
+Size: 110892
+MD5sum: f873d7892e60eb5493418bedf5563a43
+SHA1: 62bcc724356ccc2877a7c9933dc7f4255e8a4d48
+SHA256: 2a0d7a2bb11b271d69baa8fcb0b4a6ff40f2544d355b8694f685334074215207
+Section: Tweaks
+Description: 多功能屏蔽越狱检测插件，打开App无延迟，屏蔽的App所有插件注入都失效
+Author: Victoys
+Name: Shadow
+
 Package: com.victoys.tb
-Version: 2.1.1
+Version: 2.1.2
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 11.0), mobilesubstrate
 Filename: debs/tb.deb
-Size: 63108
-MD5sum: 4995007cc9db6bddc59cd22923671ccf
-SHA1: 8d8bf6307a7dca63df16858d7a43a1c2cbc227bd
-SHA256: 85f3ca45c3f5b54b37da7ca6d93d15a32729832c8f5b9b9382f5973cb44867ac
+Size: 122868
+MD5sum: 1a265025427ebbd10858a43547be2910
+SHA1: 3c9da81a16e02b56005562052dcbe6e9dcae7d99
+SHA256: aebcfd6d6335144f942a15bd3112d6fc127416634500f3aa6b8807d47b18ff83
 Section: Tweaks
 Description: 自动显示淘宝商品历史最低价、历史最高价、内部优惠券
 Author: Victoys
 Name: 淘宝优惠券
-
-Package: me.jjolano.shadow
-Version: 2.0.20
-Architecture: iphoneos-arm
-Maintainer: jjolano <jjolano@me.com>
-Depends: firmware (>=8.0), mobilesubstrate, ws.hbang.common, applist, preferenceloader
-Filename: debs/shadow.deb
-Size: 250054
-MD5sum: 05ae8facd56cc46b72837c4e95145874
-SHA1: 390069d1be05fec40d119f554faf26655688df92
-SHA256: 9235941ea8fbe40adde9a172701e9a381b65111e13291147f070698477da6d25
-Section: Tweaks
-Homepage: https://shuga.co/
-Description: A lightweight general jailbreak detection bypass.
-Author: jjolano <jjolano@me.com>
-Depiction: https://ios.jjolano.me/depiction/web/me.jjolano.shadow.html
-Icon: https://ios.jjolano.me/assets/me.jjolano.shadow/icon.png
-Moderndepiction: https://ios.jjolano.me/depiction/native/me.jjolano.shadow.json
-Name: Shadow
-Sileodepiction: https://ios.jjolano.me/depiction/native/me.jjolano.shadow.json
 
 Package: net.angelxwind.appsyncunified
 Version: 84.0
