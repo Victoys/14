@@ -141,15 +141,15 @@ Author: Victoys
 Name: 虚拟拍照
 
 Package: com.victoys.jd
-Version: 0.2-2
+Version: 0.2-3
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 11.0), mobilesubstrate
 Filename: debs/jd.deb
-Size: 112420
-MD5sum: d542586abc0e008b0d12dbd1e6514ed4
-SHA1: fbc078e4cb0c201a8012a095c85c56dd0299f28a
-SHA256: 94a59274f27bcac4df5b783df6ee106dc335139a5f88ca4b6f6580888ba88c10
+Size: 106204
+MD5sum: 7ac65b4933810f4400a2ef1c95e1a64e
+SHA1: b21a62f0a1bc1ebeae19916ccbbf8043f7eb264d
+SHA256: 3d1f13d91ee6f096ed3e8ede1ba104b624bdcf1a39898c81c5f670598c1e9166
 Section: Tweaks
 Description: 自动显示京东商品历史最低价、历史最高价、内部优惠券
 Author: Victoys
