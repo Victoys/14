@@ -58,14 +58,14 @@ Package: com.rileytestut.altdaemon
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Riley Testut
-Depends: mobilesubstrate
 Filename: debs/altdaemon.deb
-Size: 598112
-MD5sum: 0352c37742084cb04f72262977cb0372
-SHA1: 69b7ce09722fd5a2459d27bcce1cff3d55ac02cc
-SHA256: 9a407f87a916a97e855cbf1dac34405b42e1ffed2ba64d30633ed0bff4fe4a4b
+Size: 597622
+MD5sum: 83660c2d5119ac6ecce72236b27cfae4
+SHA1: 3c7ce20ff72c17f17a1415b14534a9be3fc41ca1
+SHA256: 1f5b35f4c402f6abab69e1833b260a4dfac156bbe1f9807b7aec4cd22665cc95
 Section: System
-Description: AltDaemon允许AltStore在没有PC的情况下安装和签名应用程序
+Homepage: https://altstore.io
+Description: AltDaemon allows AltStore to install and refresh apps without a computer.
 Author: Riley Testut
 Name: AltDaemon
 
