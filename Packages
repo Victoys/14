@@ -164,6 +164,21 @@ Dev: Victoys
 Name: NetControl
 Sponsor: Victoys
 
+Package: com.victoys.networkmanage
+Version: 1.1-3
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>=11.0), mobilesubstrate, preferenceloader
+Filename: debs/NetworkManage.deb
+Size: 101600
+MD5sum: 16f7b5d75deb23e0fa4559e0f64d554a
+SHA1: 87c33c89bec31c40f460c0e9edf64b2bd73b266a
+SHA256: b624b11d8dfb8b33da920f9268b7d1bbc096df22feda51a37a1e807094858e7d
+Section: Tweaks
+Description: 设置国行设备应用联网权限
+Author: Victoys
+Name: NetworkManage
+
 Package: com.victoys.shadow
 Version: 2.0.20
 Architecture: iphoneos-arm
