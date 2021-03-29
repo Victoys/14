@@ -69,6 +69,21 @@ Description: AltDaemon allows AltStore to install and refresh apps without a com
 Author: Riley Testut
 Name: AltDaemon
 
+Package: com.victoys.afc2
+Version: 1.1.2-1
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/afc2.deb
+Size: 13084
+MD5sum: ead0567e0293453e8aca9d8636b9f26f
+SHA1: 0d3dedcde2eef934517cd15c67d24c27aacb65ea
+SHA256: 9a8e10d0b407542f2879465f5155bdcd36219040a3a88db05e1ba577fbe3b146
+Section: System
+Description: 允许所有arm64设备通过USB进行系统文件直接访问读写，支持iOS 14.0 - 14.3。
+Author: Victoys
+Name: AFC2
+
 Package: com.victoys.appsync
 Version: 90.0
 Architecture: iphoneos-arm
