@@ -75,10 +75,10 @@ Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 14.0), mobilesubstrate
 Filename: debs/afc2.deb
-Size: 13060
-MD5sum: c9213035bafe9d0e651a40a0b35c4b50
-SHA1: 0e0f669814975b54272eb69dd6b08032b7a87b8c
-SHA256: 32328bef663663e20ac86ad6140a86cb94211a0033f458f3ea8d1b56645ea6d6
+Size: 13048
+MD5sum: cfbf3ee93c5275738205669f0065efdf
+SHA1: a03b558d94851e6039c1f53c5926232998ab65e1
+SHA256: cabe5edbb09fa1444c4e2850b12a6a56b10ec3e78b03972645db67e59e8fd548
 Section: System
 Description: 允许设备通过USB进行系统文件访问读写，支持iOS 14.0 - 14.3
 Author: Victoys
