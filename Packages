@@ -16,29 +16,6 @@ Author: John Coates
 Name: Flex 3 Beta
 Recommended: com.rpetrich.rocketbootstrap
 
-Package: com.cannathea.afc2d-arm64
-Version: 1.1.2-1
-Architecture: iphoneos-arm
-Maintainer: Cannathea <csupport@cannathea.com>
-Installed-Size: 408
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: cy+cpu.arm64, mobilesubstrate, ldid
-Conflicts: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
-Replaces: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
-Provides: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
-Filename: debs/afc2.deb
-Size: 19290
-MD5sum: 5cc7bc63508de9e9f2fa334d86df90ca
-SHA1: b6c95383fd3319b9263d2bf9261ff2623754ab5f
-SHA256: f970219a6c8fd8c29a5b51e09d5777285638cc49d63e88386ffe97ea8efcde60
-Section: System
-Homepage: https://cannathea.com/
-Description: Allow full file-system access over USB for all arm64 devices, especially useful for those on iOS 11 and above.
-Tag: purpose::daemon, role::enduser
-Author: saurik, Cannathea <csupport@cannathea.com>
-Depiction: https://cydia.akemi.ai/?page/com.cannathea.afc2d-arm64
-Name: Apple File Conduit "2" (iOS 11+, arm64)
-
 Package: com.exile90.icleanerpro
 Version: 7.9.1
 Architecture: iphoneos-arm
@@ -91,6 +68,21 @@ Homepage: https://altstore.io
 Description: AltDaemon allows AltStore to install and refresh apps without a computer.
 Author: Riley Testut
 Name: AltDaemon
+
+Package: com.victoys.afc2
+Version: 1.1.2-1
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>= 13.0), cy+cpu.arm64, mobilesubstrate, ldid
+Filename: debs/afc2.deb
+Size: 13080
+MD5sum: dc22f373d89db9329081478139b574a6
+SHA1: 6b564ece71452e86a804d83ede8110ecacf8d23d
+SHA256: 54838ba8d384ef528419e9b91231a2222d4164fbd27f87d24fa76367e60009dd
+Section: System
+Description: 允许设备通过USB进行系统文件访问读写，支持iOS 14.0 - 14.3
+Author: Victoys
+Name: AFC2
 
 Package: com.victoys.appsync
 Version: 90.0
@@ -152,22 +144,6 @@ Description: 自动显示京东商品历史最低价、历史最高价、内部�
 Author: Victoys
 Name: 京东优惠券
 
-Package: com.victoys.libertylite
-Version: 0.2.12
-Architecture: iphoneos-arm
-Maintainer: Victoys
-Depends: mobilesubstrate, preferenceloader, applist
-Conflicts: com.ryleyangus.liberty, com.ryleyangus.libertylite
-Filename: debs/libertylite.deb
-Size: 82216
-MD5sum: d5e58afa000f94d87941c57845dc5b16
-SHA1: cfef5775df253d379cac93afeb9a3f2bfec6372f
-SHA256: 5343adba423e5acfc1826b3831895040212da933e5781254f9af07be7d0a73a6
-Section: Tweaks
-Description: 屏蔽软件对越狱的检测
-Author: Victoys
-Name: Liberty Lite
-
 Package: com.victoys.localiapstore
 Version: 1.4-1
 Architecture: iphoneos-arm
@@ -183,23 +159,6 @@ Description: 软件内购破解、已完全汉化
 Author: Victoys
 Dev: Victoys
 Name: LocalIAPStore
-Sponsor: Victoys
-
-Package: com.victoys.netcontrol
-Version: 1.0.1-8
-Architecture: iphoneos-arm
-Maintainer: Victoys
-Depends: mobilesubstrate
-Filename: debs/netcontrol.deb
-Size: 693972
-MD5sum: 00d39fc3db346c725694f078da262578
-SHA1: eabf5babb1540e386e1e07f03265d882f999751b
-SHA256: 3528f96f2bcd293416484e65d4b7036fcb8a45325b3d766c750483c6d0e278ce
-Section: Utilities
-Description: 激活国行iOS13自带网络开关
-Author: Victoys
-Dev: Victoys
-Name: NetControl
 Sponsor: Victoys
 
 Package: com.victoys.networkmanage
