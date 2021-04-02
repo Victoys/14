@@ -200,15 +200,15 @@ Author: Victoys
 Name: Shadow
 
 Package: com.victoys.tb
-Version: 2.1.3
+Version: 2.2.0
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 11.0), mobilesubstrate
 Filename: debs/tb.deb
-Size: 127412
-MD5sum: e7a27f126841c5f6e9818762ff8c1d75
-SHA1: fff3adb674c5d7f2171c4c44ad1f804d6d3ef20c
-SHA256: 4f6e63e57325c02d4deb68205e71a1582f47d3eec4845b164410eb37905e98d2
+Size: 139060
+MD5sum: 9ad8802abec372e75f6a4640f65164fd
+SHA1: d8a05ceb900931d095b2cf6b43326842437183a2
+SHA256: f0a187e60ed9e3186300dac9c4833bc71ac5c3c8cf498a86a74fc8221afde9e5
 Section: Tweaks
 Description: 自动显示淘宝商品历史最低价、历史最高价、内部优惠券
 Author: Victoys
