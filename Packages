@@ -69,6 +69,22 @@ Description: AltDaemon allows AltStore to install and refresh apps without a com
 Author: Riley Testut
 Name: AltDaemon
 
+Package: com.victoys.SuDial
+Version: 0.1-5
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Filename: debs/sudial.deb
+Size: 294304
+MD5sum: 77e16119f474dd21624383d8f334887a
+SHA1: 555b4ee9d435d1beabec2598b0aa94dc4d21956f
+SHA256: 85d11d2329fdd7a761e6e77c4eedb932686e0a591085e8b70ea8765ec68b39cc
+Section: Tweaks
+Priority: optional
+Description: 开启归属地、来去电震动、T9拨号
+Author: Victoys
+Name: SuDial
+
 Package: com.victoys.appsync
 Version: 90.0
 Architecture: iphoneos-arm
