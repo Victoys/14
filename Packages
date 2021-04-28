@@ -75,10 +75,10 @@ Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 14.0), mobilesubstrate
 Filename: debs/sudial.deb
-Size: 293928
-MD5sum: 87086348e76581d1b0431ba8d469cb78
-SHA1: 21daf15bcc8752ee2f963a896c9e0fb306ea7ce9
-SHA256: 01902c899ad7de1aa1764d68a6433bae5acff7a0a4d384a72f78b5fe0619d4c2
+Size: 293940
+MD5sum: e0440e7884ed5c2bf71a8f54cfe846f1
+SHA1: 085af77ef2df6e8136342251125d139dfb077c2c
+SHA256: c6c37b186136532075e9497f16a91d68b49d2c405976d7524066960f9a352f9b
 Section: Tweaks
 Priority: optional
 Description: 开启归属地、来去电震动、T9拨号
