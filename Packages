@@ -73,12 +73,12 @@ Package: com.victoys.SuDial
 Version: 0.1-5
 Architecture: iphoneos-arm
 Maintainer: Victoys
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Depends: firmware (>= 14.0), mobilesubstrate
 Filename: debs/sudial.deb
-Size: 294304
-MD5sum: 77e16119f474dd21624383d8f334887a
-SHA1: 555b4ee9d435d1beabec2598b0aa94dc4d21956f
-SHA256: 85d11d2329fdd7a761e6e77c4eedb932686e0a591085e8b70ea8765ec68b39cc
+Size: 293928
+MD5sum: 87086348e76581d1b0431ba8d469cb78
+SHA1: 21daf15bcc8752ee2f963a896c9e0fb306ea7ce9
+SHA256: 01902c899ad7de1aa1764d68a6433bae5acff7a0a4d384a72f78b5fe0619d4c2
 Section: Tweaks
 Priority: optional
 Description: 开启归属地、来去电震动、T9拨号
