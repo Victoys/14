@@ -131,15 +131,15 @@ Author: Victoys
 Name: 虚拟拍照
 
 Package: com.victoys.jd
-Version: 0.2-4
+Version: 0.2-5
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 11.0), mobilesubstrate
 Filename: debs/jd.deb
-Size: 105820
-MD5sum: 26a15e7f11beb57a14feb7ddd211bfff
-SHA1: aac354185b8f9ee08f75f4f8a06ac43e49989dc6
-SHA256: 3449e078a0142965eeb213b9582dd563eb787c373bf2ff4b127a44f567649413
+Size: 102968
+MD5sum: 21ec9a44a1ef72adc17eb29c579e70ed
+SHA1: 445810ad2982e933b70bd9a57a13cdb537e958c9
+SHA256: 0dceedead41647c42cb48944a5666584586de0d9573782d45100fe4084d80833
 Section: Tweaks
 Description: 自动显示京东商品历史最低价、历史最高价、内部优惠券
 Author: Victoys
@@ -208,15 +208,15 @@ Author: Victoys
 Name: Shadow
 
 Package: com.victoys.tb
-Version: 2.2.0
+Version: 2.2.1
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 11.0), mobilesubstrate
 Filename: debs/tb.deb
-Size: 139060
-MD5sum: 9ad8802abec372e75f6a4640f65164fd
-SHA1: d8a05ceb900931d095b2cf6b43326842437183a2
-SHA256: f0a187e60ed9e3186300dac9c4833bc71ac5c3c8cf498a86a74fc8221afde9e5
+Size: 122744
+MD5sum: 1d5c91a74cc06bc9d2b4c5bd9d453135
+SHA1: 490074a1042c5c0e1747fec9de944531b2fe1d27
+SHA256: fef05666b0a9b769b719194bb77cc15268e2e7f471d2bdb55785ac947d6aa175
 Section: Tweaks
 Description: 自动显示淘宝商品历史最低价、历史最高价、内部优惠券
 Author: Victoys
