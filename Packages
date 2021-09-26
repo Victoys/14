@@ -177,20 +177,20 @@ Description: 设置国行设备应用联网权限
 Author: Victoys
 Name: NetworkManage
 
-Package: com.victoys.pro
-Version: 3.5.7
+Package: com.victoys.otadisabler
+Version: 0.1-9
 Architecture: iphoneos-arm
 Maintainer: Victoys
-Depends: mobilesubstrate, com.creaturecoding.libcspreferences, preferenceloader
-Filename: debs/pro.deb
-Size: 804156
-MD5sum: c73d8092ea0dfe41d670e40d3e81acdd
-SHA1: 02cab6fa267b48e12177fcde4997960fd7ec7c29
-SHA256: 0e632e67988bd190c0e884ddae1e273a2e7d0495a8af4d656d7ab7dff7a75bcd
+Depends: firmware (>= 9.0), system-cmds, mobilesubstrate
+Filename: debs/ota.deb
+Size: 18224
+MD5sum: 327cca7bf136ba1c4735ed05e6004693
+SHA1: 67b65a7953572bec3609cc6ae01c5e499f914643
+SHA256: 6f3f5ded8d6f7b6be172725ab19787de245e374a3313f29534b603f7e918a7bd
 Section: Tweaks
-Description: 能破解的app开启VIP权限
+Description: 关闭OTA更新，始终提示当前系统为最新版
 Author: Victoys
-Name: Pro助手
+Name: OTADisabler
 
 Package: com.victoys.shadow
 Version: 2.0.20
