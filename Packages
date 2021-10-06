@@ -86,30 +86,30 @@ Author: Victoys
 Name: SuDial
 
 Package: com.victoys.appsync
-Version: 90.0
+Version: 102.0
 Architecture: iphoneos-arm
 Maintainer: Victoys
-Depends: firmware (>= 12.0), mobilesubstrate
-Filename: debs/appsync90.deb
-Size: 37456
-MD5sum: 5ed883677a55c90a2d49e0655b8c2559
-SHA1: d7512dfe371995dc95dca78c0bfafce0b86fa0ec
-SHA256: 1583d0c13f978f4b35d447b55f5ea75068cb9a505f65d2c8e37be78bccdb24bd
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/appsync.deb
+Size: 37440
+MD5sum: 38b4a7950c0162039d01f3042bf24aed
+SHA1: 1f49f9d23021c158e611616362449d153df4dbcc
+SHA256: bb7ddc7b4672eeac51d5fb00e05d3460ad898e096c18eee04ed6bbb7faa25307
 Section: Tweaks
-Description: 安装未签名的IPA应用程序，支持iOS 14.0 - 14.3
+Description: 直接安装未签名IPA应用，iOS14系统专用
 Author: Victoys
 Name: AppSync
 
 Package: com.victoys.aysx
-Version: 0.1-5
+Version: 1.0-1
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: mobilesubstrate
 Filename: debs/aysx.deb
-Size: 48366
-MD5sum: 6f10ce2df2107ea1fddfd23f09a17f4a
-SHA1: 9d120c41284f996f51284d477b7aa84d38e160c9
-SHA256: 555675403b03667c997fd3c6880dc0e30aeff1d0f78fef6471d8f1a01752e2fa
+Size: 145992
+MD5sum: e00f0fa8737cd21cb857eec426861a72
+SHA1: 2f4756ce25ee276a856d37362ae3faa028690783
+SHA256: c654e43ed4e40b3f9ee65af17be5da9a9d83fc3ad27e7823f77599b8380725fb
 Section: Tweaks
 Description: 爱阅书香开启会员特权
 Author: Victoys
