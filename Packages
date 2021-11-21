@@ -37,15 +37,15 @@ Icon: file:///Applications/iCleaner.app/Icon.png
 Name: iCleaner Pro
 
 Package: com.julioverne.cydown
-Version: 7.1.1
+Version: 7.1.2
 Architecture: iphoneos-arm
 Maintainer: Julio
 Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
 Filename: debs/cydown.deb
-Size: 4358056
-MD5sum: cd0eb2e0a8ebbd2f6a052fa596f03a89
-SHA1: ae29c69e57da2d62ff41ccd77ead0af1fc14e3ab
-SHA256: 47027504dc6b13bde402e5423fd3f06d6c20b94b9b94d274677753743cc692be
+Size: 4361036
+MD5sum: e7578e70e355d57c7bd49aa77bd7a974
+SHA1: ad6f0eb7f039fbfd9b050d8265803c8aa62371e4
+SHA256: 09d1418fd281fbddfba6c76a39d4cf1db112b915b689907b3a3c0d5c80f80aaf
 Section: Tweaks
 Homepage: http://twitter.com/ijulioverne
 Description: Cydia Download Manager & Extra Features!
@@ -53,21 +53,6 @@ Author: julioverne <julioverne@me.com>
 Depiction: http://julio.hackyouriphone.org/description.html?id=com.julioverne.cydown
 Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
 Name: CyDown
-
-Package: com.rileytestut.altdaemon
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Riley Testut
-Filename: debs/altdaemon.deb
-Size: 597622
-MD5sum: 83660c2d5119ac6ecce72236b27cfae4
-SHA1: 3c7ce20ff72c17f17a1415b14534a9be3fc41ca1
-SHA256: 1f5b35f4c402f6abab69e1833b260a4dfac156bbe1f9807b7aec4cd22665cc95
-Section: System
-Homepage: https://altstore.io
-Description: AltDaemon allows AltStore to install and refresh apps without a computer.
-Author: Riley Testut
-Name: AltDaemon
 
 Package: com.victoys.SuDial
 Version: 0.1-5
@@ -99,21 +84,6 @@ Section: Tweaks
 Description: 直接安装未签名IPA应用，iOS14系统专用
 Author: Victoys
 Name: AppSync
-
-Package: com.victoys.aysx
-Version: 1.0-1
-Architecture: iphoneos-arm
-Maintainer: Victoys
-Depends: mobilesubstrate
-Filename: debs/aysx.deb
-Size: 145992
-MD5sum: e00f0fa8737cd21cb857eec426861a72
-SHA1: 2f4756ce25ee276a856d37362ae3faa028690783
-SHA256: c654e43ed4e40b3f9ee65af17be5da9a9d83fc3ad27e7823f77599b8380725fb
-Section: Tweaks
-Description: 爱阅书香开启会员特权
-Author: Victoys
-Name: 爱阅书香
 
 Package: com.victoys.fakepicture
 Version: 1.6.1
