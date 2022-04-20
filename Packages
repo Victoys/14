@@ -199,14 +199,14 @@ Maintainer: @333
 Installed-Size: 33
 Depends: mobilesubstrate
 Filename: debs/xj.deb
-Size: 35144
-MD5sum: 9bcd5a70a6081a216e93ed28478475b1
-SHA1: 91dfbcc44ac67824e038fd8e226e55d68c661faa
-SHA256: 9aa99a832215ce7f4b662d26a0fafd49f660da2ad25c0b1e4cb46c58550a12d5
+Size: 51222
+MD5sum: 255e61b35a1a2fbfc9f82d24d344f358
+SHA1: c6f3ee65f5648b5664e89dab1ffef412eff523f2
+SHA256: d6fa3b0a76a1adacf74734b85542f40d4f9485fb33c671aa4fb6b451c45d660d
 Section: Tweaks
-Description: 去除内置广告、无限观看次数
+Description: 香蕉视频crack
 Author: 江湖
-Name: 香蕉视频
+Name: 香蕉视频crack
 
 Package: xyz.xninja.systeminfo
 Version: 2.7.2-2
