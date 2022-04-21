@@ -23,13 +23,13 @@ Maintainer: cemck
 Installed-Size: 984
 Depends: mobilesubstrate, preferenceloader, applist, firmware (>= 13.0)
 Conflicts: com.cemck.killx
-Filename: debs/killxproyb.deb
-Size: 197056
-MD5sum: 4e58eca5693803bb216c620e03c9a106
-SHA1: 4657fc761a4a73c482d62a003984f862dc6f3842
-SHA256: 6b5e19af871e53e898f4dc0b666a85cdeb71a1930345ee7dabf20a462a1bf4fc
+Filename: debs/killxpro.deb
+Size: 196648
+MD5sum: 1634182e091176a326ae96e9a06fe465
+SHA1: 598603ce9c5b8897bf05fd24cdaf71ad222efaed
+SHA256: bbd63c1580a31f6b6a6f1cf2426f6265d65b9b037b43f04f0667110a5fb3ee2a
 Section: Tweaks
-Description: One swipe to kill them all!
+Description: 一键关闭所有后台！
 Author: cemck
 Icon: file:///Library/PreferenceBundles/KillXProPrefs.bundle/icon_pro_big@3x.png
 Name: KillX Pro
@@ -132,23 +132,6 @@ Section: Tweaks
 Description: 自动显示京东商品历史最低价、历史最高价、内部优惠券
 Author: Victoys
 Name: 京东优惠券
-
-Package: com.victoys.killx-pro
-Version: 3.0.2
-Architecture: iphoneos-arm
-Maintainer: Victoys
-Installed-Size: 984
-Depends: mobilesubstrate, preferenceloader, applist, firmware (>= 13.0)
-Filename: debs/killx.deb
-Size: 196628
-MD5sum: e9832040e5bfec5c122a10f361dd5a3a
-SHA1: 02afa5483155633de4b16312aeb31be28736a67c
-SHA256: 2add2411a7c59e5a2b7f99d8f06e431a4761f2e1a1a8fe789d691876500ef907
-Section: Tweaks
-Description: One swipe to kill them all!
-Author: Victoys
-Icon: file:///Library/PreferenceBundles/KillXProPrefs.bundle/icon_pro_big@3x.png
-Name: KillX
 
 Package: com.victoys.localiapstore
 Version: 1.4-1
