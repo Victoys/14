@@ -163,6 +163,21 @@ Description: 自动显示京东商品历史最低价、历史最高价、内部�
 Author: Victoys
 Name: 京东优惠券
 
+Package: com.victoys.kuchang
+Version: 1.1-2
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>= 11.0), mobilesubstrate
+Filename: debs/kuchang.deb
+Size: 64420
+MD5sum: 85e53ce0bf42e4fc2a02eeda098c0a88
+SHA1: 864dc586650778dfa1e1f582b7e5804597b99591
+SHA256: 7b67de6661130d37d248e9b7eb46d1d08cef6942be0c4d12def4c143c483948a
+Section: Tweaks
+Description: 酷我畅听会员解锁、去广告、缓存限制
+Author: Victoys
+Name: 酷我畅听
+
 Package: com.victoys.kuwo
 Version: 1.3-3
 Architecture: iphoneos-arm
@@ -262,14 +277,14 @@ Maintainer: @333
 Installed-Size: 33
 Depends: mobilesubstrate
 Filename: debs/xj.deb
-Size: 35128
-MD5sum: 807420f59ce12fa7ce3d647017c26fd5
-SHA1: d38aae9381b8046a206614b0b0c33056841ed867
-SHA256: 956c49cb4fb467fbe334404cfa69fe73ccc2142b4e76549f2ab76a1fee7261ae
+Size: 51222
+MD5sum: 255e61b35a1a2fbfc9f82d24d344f358
+SHA1: c6f3ee65f5648b5664e89dab1ffef412eff523f2
+SHA256: d6fa3b0a76a1adacf74734b85542f40d4f9485fb33c671aa4fb6b451c45d660d
 Section: Tweaks
-Description: 香蕉视频破解
+Description: 香蕉视频crack
 Author: 江湖
-Name: 香蕉视频
+Name: 香蕉视频crack
 
 Package: xyz.xninja.systeminfo
 Version: 2.7.2-2
