@@ -103,6 +103,21 @@ Description: 直接安装未签名IPA应用，iOS14系统专用
 Author: Victoys
 Name: AppSync
 
+Package: com.victoys.dumpdecrypter
+Version: 1.2-9.4
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>= 11.0), mobilesubstrate
+Filename: debs/dumpdecrypter.deb
+Size: 229472
+MD5sum: 4680acc36d908a84d0e7fa90d8061b0d
+SHA1: 0547ef05078de9f9874ba8e11013541ebd8fb178
+SHA256: 64e7fc6e3ee32876a749f29bf0d32acde128c706ab2ff3ba0d97b74a10ffcf91
+Section: Tweaks
+Description: 解密IPA软件，可以在越狱手机直接安装
+Author: Victoys
+Name: DumpDecrypter
+
 Package: com.victoys.fakepicture
 Version: 1.6.1
 Architecture: iphoneos-arm
@@ -118,6 +133,21 @@ Description: 替换应用摄像头拍照的图片，让应用得到任意设置�
 Author: Victoys
 Name: 虚拟拍照
 
+Package: com.victoys.injectipa
+Version: 1.1-8.2
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>= 11.0)
+Filename: debs/injectipa.deb
+Size: 1181036
+MD5sum: cfa595507e03b831e47bbb7533f527cc
+SHA1: 09ae783827923245d269400080e685295b1ef5bd
+SHA256: 6be1309780d0db251f7b1bda8b3615339bddd518be0099762b4e0278a648d92b
+Section: Tweaks
+Description: 命令行一键注入dylib到ipa
+Author: Victoys
+Name: injectipa
+
 Package: com.victoys.jd
 Version: 0.2-9
 Architecture: iphoneos-arm
@@ -132,6 +162,21 @@ Section: Tweaks
 Description: 自动显示京东商品历史最低价、历史最高价、内部优惠券
 Author: Victoys
 Name: 京东优惠券
+
+Package: com.victoys.kuwo
+Version: 1.3-3
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>= 11.0), mobilesubstrate
+Filename: debs/kuwo.deb
+Size: 110952
+MD5sum: 91f370eb41adb729c03dc5f5156174ec
+SHA1: 3c6ad99ae59db7aaf393e920503631ae4d6ddc92
+SHA256: 6d356490d573ac3b10da03134675355f68746050cbd2cde654ad3423ec12ffe1
+Section: Tweaks
+Description: 酷我音乐会员全功能解锁、听书解锁、去广告、音乐导出
+Author: Victoys
+Name: 酷我音乐
 
 Package: com.victoys.localiapstore
 Version: 1.4-1
@@ -217,14 +262,14 @@ Maintainer: @333
 Installed-Size: 33
 Depends: mobilesubstrate
 Filename: debs/xj.deb
-Size: 51222
-MD5sum: 255e61b35a1a2fbfc9f82d24d344f358
-SHA1: c6f3ee65f5648b5664e89dab1ffef412eff523f2
-SHA256: d6fa3b0a76a1adacf74734b85542f40d4f9485fb33c671aa4fb6b451c45d660d
+Size: 35128
+MD5sum: 807420f59ce12fa7ce3d647017c26fd5
+SHA1: d38aae9381b8046a206614b0b0c33056841ed867
+SHA256: 956c49cb4fb467fbe334404cfa69fe73ccc2142b4e76549f2ab76a1fee7261ae
 Section: Tweaks
-Description: 香蕉视频crack
+Description: 香蕉视频破解
 Author: 江湖
-Name: 香蕉视频crack
+Name: 香蕉视频
 
 Package: xyz.xninja.systeminfo
 Version: 2.7.2-2
