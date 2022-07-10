@@ -145,21 +145,6 @@ Description: 自动显示京东商品历史最低价、历史最高价、内部�
 Author: Victoys
 Name: 京东优惠券
 
-Package: com.victoys.kuchang
-Version: 1.1-2
-Architecture: iphoneos-arm
-Maintainer: Victoys
-Depends: firmware (>= 11.0), mobilesubstrate
-Filename: debs/kuchang.deb
-Size: 64420
-MD5sum: 85e53ce0bf42e4fc2a02eeda098c0a88
-SHA1: 864dc586650778dfa1e1f582b7e5804597b99591
-SHA256: 7b67de6661130d37d248e9b7eb46d1d08cef6942be0c4d12def4c143c483948a
-Section: Tweaks
-Description: 酷我畅听会员解锁、去广告、缓存限制
-Author: Victoys
-Name: 酷我畅听
-
 Package: com.victoys.kuwo
 Version: 1.3-3
 Architecture: iphoneos-arm
@@ -237,6 +222,21 @@ Description: 多功能屏蔽越狱检测插件，打开App无延迟，屏蔽的A
 Author: Victoys
 Name: Shadow
 
+Package: com.victoys.taurine
+Version: 1.0.4
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>=14.0)
+Filename: debs/taurine104.deb
+Size: 29617896
+MD5sum: 892821426b77b09a1e49c47f2fedc41b
+SHA1: 2411eb1b68c785546d9d2d434e532219fe2a09a6
+SHA256: 863f28663db5131d774d20cee707fc754ee7073bb87f512447aca24621b81261
+Section: Applications
+Description: Taurine 1.0.4永久签名版
+Author: Victoys
+Name: Taurine
+
 Package: com.victoys.tb
 Version: 2.2.7
 Architecture: iphoneos-arm
@@ -252,21 +252,35 @@ Description: 自动显示淘宝商品历史最低价、历史最高价、内部�
 Author: Victoys
 Name: 淘宝优惠券
 
-Package: com.xiangjiaosp.net
-Version: 0.0.1
+Package: science.victoys.undecimus611
+Version: 6.1.1
 Architecture: iphoneos-arm
-Maintainer: @333
-Installed-Size: 33
-Depends: mobilesubstrate
-Filename: debs/xj.deb
-Size: 51222
-MD5sum: 255e61b35a1a2fbfc9f82d24d344f358
-SHA1: c6f3ee65f5648b5664e89dab1ffef412eff523f2
-SHA256: d6fa3b0a76a1adacf74734b85542f40d4f9485fb33c671aa4fb6b451c45d660d
-Section: Tweaks
-Description: 香蕉视频crack
-Author: 江湖
-Name: 香蕉视频crack
+Maintainer: Victoys
+Depends: firmware (>=11.0)
+Filename: debs/unc0ver611.deb
+Size: 50135492
+MD5sum: 0fcfe9ca4200f014fef978f07404d1a2
+SHA1: c590a8131a21407fb804bd3c4bb4823224987611
+SHA256: b7c9c271211d59346761f6986ac04b711ceff71615c35eb5386efe4d046641a2
+Section: Applications
+Description: unc0ver 6.1.1永久签名版
+Author: Victoys
+Name: unc0ver
+
+Package: science.victoys.undecimus620
+Version: 6.2.0
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>=11.0)
+Filename: debs/unc0ver620.deb
+Size: 46310388
+MD5sum: ba0073349144efaa3bfb59de43f4ea12
+SHA1: fddbdc6e72dc30b328045b66866085c478b2ac9a
+SHA256: 1116aead4d0967cef3fb37a0bc4e31c1842fde569ce37660861caa4d086f2cab
+Section: Applications
+Description: unc0ver 6.2.0永久签名版
+Author: Victoys
+Name: unc0ver
 
 Package: xyz.xninja.systeminfo
 Version: 2.7.2-2
