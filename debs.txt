@@ -1,3 +1,11 @@
+dpkg-deb -x ./1.deb ./temp
+
+dpkg-deb -e ./1.deb ./temp/DEBIAN
+
+dpkg-deb -b ./temp 112.deb
+
+
+
 dpkg-scanpackages debs /dev/null > Packages
 
 tar zcvf Packages.gz Packages
