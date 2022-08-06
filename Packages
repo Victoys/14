@@ -116,30 +116,30 @@ Author: Victoys
 Name: 虚拟拍照
 
 Package: com.victoys.injectipa
-Version: 1.1-8.5
+Version: 1.2-9
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 11.0)
 Filename: debs/injectipa.deb
-Size: 1195116
-MD5sum: 3633c37ea9421dd1fc420ed88a107ff8
-SHA1: 4c93767ac6c9de7a0e18f038b00279a93b7bf8ab
-SHA256: 1af784ba424d04da1c9e5871283aef5552a331ff773d7827d58041c8193de8a1
+Size: 1222768
+MD5sum: d09b9f9cc4e3557dfd639f56daf0b952
+SHA1: 821f85bb9fdf4c0eb54586ee08f04b06cf5745d6
+SHA256: 0f988440a80016df5952525bfe11496acaadbe02c5b3f77c3a1838d55f825274
 Section: Tweaks
 Description: 命令行一键注入dylib到ipa
 Author: Victoys
 Name: injectipa
 
 Package: com.victoys.jd
-Version: 0.2-9
+Version: 0.3-0
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 11.0), mobilesubstrate
 Filename: debs/jd.deb
-Size: 42144
-MD5sum: a2d46e51604e75a3cbe0e22a21e6273c
-SHA1: 26bb2d7a24968b31b70812e0cb5ce89d991bd355
-SHA256: 655618c840463ca801780f3dcc28d541e566c4984085611914fc5af3221f5137
+Size: 42576
+MD5sum: ce73255d48c734fa5c4d647f00966d39
+SHA1: d66b5aa4f7b73633a23bc576d1b6c8a19cf25600
+SHA256: 228ad580e8df9970c00cc620d4deb53c06e29872a4525b37ff8be00799cad652
 Section: Tweaks
 Description: 自动显示京东商品历史最低价、历史最高价、内部优惠券
 Author: Victoys
@@ -222,31 +222,16 @@ Description: 多功能屏蔽越狱检测插件，打开App无延迟，屏蔽的A
 Author: Victoys
 Name: Shadow
 
-Package: com.victoys.taurine
-Version: 1.0.4
-Architecture: iphoneos-arm
-Maintainer: Victoys
-Depends: firmware (>=14.0)
-Filename: debs/taurine104.deb
-Size: 29617896
-MD5sum: 892821426b77b09a1e49c47f2fedc41b
-SHA1: 2411eb1b68c785546d9d2d434e532219fe2a09a6
-SHA256: 863f28663db5131d774d20cee707fc754ee7073bb87f512447aca24621b81261
-Section: Applications
-Description: Taurine 1.0.4永久签名版
-Author: Victoys
-Name: Taurine
-
 Package: com.victoys.tb
-Version: 2.2.7
+Version: 2.2.8
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 11.0), mobilesubstrate
 Filename: debs/tb.deb
-Size: 68520
-MD5sum: 6bbde104ad924f03a6b0f953031e42eb
-SHA1: 1cb6ffd4376ca54865e671840b4e213e882efcc3
-SHA256: e706a3bbda74c2222df113744f42e184b889479ce916e4967e39efabf160740a
+Size: 137876
+MD5sum: 572eb5c45f7107bb74a6d8b21c98c5b1
+SHA1: da5e159bd752bebb0ac20d00e1db85235282e79f
+SHA256: 16ed86a12ba10a71bda12168ed6de1ffb5a2872461dab136d4f654a244ca3482
 Section: Tweaks
 Description: 自动显示淘宝商品历史最低价、历史最高价、内部优惠券
 Author: Victoys
