@@ -207,6 +207,22 @@ Description: 关闭OTA更新，始终提示当前系统为最新版
 Author: Victoys
 Name: OTADisabler
 
+Package: com.victoys.permasignerios
+Version: 0.2.5
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Pre-Depends: firmware (>= 14.0)
+Depends: dpkg, ldid , bash , plutil | com.bingner.plutil
+Filename: debs/permasignerios.deb
+Size: 2523752
+MD5sum: bac000759e7d9e37fb6d726736768a58
+SHA1: 15415235f57d0d7a609098cabf08f0b1ce1424e3
+SHA256: 8ab9583a3c8abe999783ef72f4ee6e54ba8610a220a10a03bb6d95c0afece0eb
+Section: Applications
+Description: 制作不受签名限制、重启依旧有效的DEB软件！
+Author: Victoys
+Name: permasigneriOS
+
 Package: com.victoys.shadow
 Version: 2.0.20
 Architecture: iphoneos-arm
