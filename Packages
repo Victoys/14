@@ -116,15 +116,15 @@ Author: Victoys
 Name: 虚拟拍照
 
 Package: com.victoys.injectipa
-Version: 1.2-9
+Version: 1.3-2
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 11.0)
 Filename: debs/injectipa.deb
-Size: 1222768
-MD5sum: d09b9f9cc4e3557dfd639f56daf0b952
-SHA1: 821f85bb9fdf4c0eb54586ee08f04b06cf5745d6
-SHA256: 0f988440a80016df5952525bfe11496acaadbe02c5b3f77c3a1838d55f825274
+Size: 1227532
+MD5sum: fefbfaf7f0044f99c3ded2a4482b6987
+SHA1: 2cea25266073e729e7794fc86dfb08892a1a5b75
+SHA256: 0aed9d5d669ddf53d50fd07d46d78025ce6e34956f353367e7132a7924a82ed1
 Section: Tweaks
 Description: 命令行一键注入dylib到ipa
 Author: Victoys
@@ -146,15 +146,15 @@ Author: Victoys
 Name: 京东优惠券
 
 Package: com.victoys.kuwo
-Version: 1.3-4
+Version: 1.3-8
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 11.0), mobilesubstrate
 Filename: debs/kuwo.deb
-Size: 114756
-MD5sum: f579831311f568e0795dbfefd833eef9
-SHA1: b37d9ff51fd4de73e4977cb0cf5c498d4245f6d8
-SHA256: ae9e1b42d2552b3ef33b3ddd6c16fef264aa132c14ab104e2fd1fe67d3d44ae7
+Size: 118924
+MD5sum: b2931bb6dfd3b8d3da6aab72a71a7d13
+SHA1: 2e72785de663cc0d218ab30349236ca103c5e04b
+SHA256: e0cc9dab8384fbd735b45d7e81d18961a90d6508398f06966e6c4347c74d009d
 Section: Tweaks
 Description: 酷我音乐/酷我音乐纯净版会员全功能解锁、下载听书无限制、去广告、音乐导出
 Author: Victoys
@@ -236,6 +236,21 @@ Section: Tweaks
 Description: 自动显示淘宝商品历史最低价、历史最高价、内部优惠券
 Author: Victoys
 Name: 淘宝优惠券
+
+Package: com.victoys.trollstore
+Version: 1.0.10
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>= 14.0)
+Filename: debs/trollstore.deb
+Size: 206000
+MD5sum: 600a05c14bf9706b1b061eb7bbeb42a9
+SHA1: 3ff46b9fbe42af031bcf4a9a5610c32872ba6234
+SHA256: e1ded22ebddb67e614221a62c826cef76e6e5a39eff858077bac4bc9583d4b10
+Section: Applications
+Description: 无视IPA软件签名验证，随意安装第三方软件！
+Author: Victoys
+Name: TrollStore
 
 Package: science.victoys.undecimus611
 Version: 6.1.1
