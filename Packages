@@ -193,17 +193,17 @@ Author: Victoys
 Name: NetworkManage
 
 Package: com.victoys.otadisabler
-Version: 0.1-9
+Version: 0.2
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 9.0), system-cmds, mobilesubstrate
 Filename: debs/ota.deb
-Size: 18224
-MD5sum: 327cca7bf136ba1c4735ed05e6004693
-SHA1: 67b65a7953572bec3609cc6ae01c5e499f914643
-SHA256: 6f3f5ded8d6f7b6be172725ab19787de245e374a3313f29534b603f7e918a7bd
+Size: 17020
+MD5sum: 4209d8bcaf0d6b4d6f8800030b8f729e
+SHA1: 5e92046249faaee1657018f168c3caf8283b9b23
+SHA256: 728b023e7b28e5b0a03cf790b42c28ddff715be431642b291b5ed82c1e807fec
 Section: Tweaks
-Description: 关闭OTA更新，始终提示当前系统为最新版
+Description: 删除并关闭OTA更新提示，始终提示当前系统为最新版！
 Author: Victoys
 Name: OTADisabler
 
@@ -254,15 +254,15 @@ Author: Victoys
 Name: 淘宝优惠券
 
 Package: com.victoys.trollstore
-Version: 1.0.10
+Version: 1.1.2
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 14.0)
 Filename: debs/trollstore.deb
-Size: 206000
-MD5sum: 600a05c14bf9706b1b061eb7bbeb42a9
-SHA1: 3ff46b9fbe42af031bcf4a9a5610c32872ba6234
-SHA256: e1ded22ebddb67e614221a62c826cef76e6e5a39eff858077bac4bc9583d4b10
+Size: 206688
+MD5sum: 8fcc52c27616893efa1011bf52fff839
+SHA1: 062d1e8381551767a59fdc52c7ac35bc0c1f4d30
+SHA256: fdb10c94f89e417e1ae56c43c23d06c8fad37eb753403154e14958cd2d89eb87
 Section: Applications
 Description: 无视IPA软件签名验证，随意安装第三方软件！
 Author: Victoys
