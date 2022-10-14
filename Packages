@@ -254,15 +254,15 @@ Author: Victoys
 Name: 淘宝优惠券
 
 Package: com.victoys.trollstore
-Version: 1.1.2
+Version: 1.2
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 14.0)
 Filename: debs/trollstore.deb
-Size: 206688
-MD5sum: 8fcc52c27616893efa1011bf52fff839
-SHA1: 062d1e8381551767a59fdc52c7ac35bc0c1f4d30
-SHA256: fdb10c94f89e417e1ae56c43c23d06c8fad37eb753403154e14958cd2d89eb87
+Size: 212148
+MD5sum: b0c6ff0848ed6b2e410ce37107c56472
+SHA1: 44b3276ac5ac85bc6a0a0295a208e23f18e556c4
+SHA256: 31954c4555b0d04e4f541a33e29649127b229667b4ca1186e077be280a76674f
 Section: Applications
 Description: 无视IPA软件签名验证，随意安装第三方软件！
 Author: Victoys
