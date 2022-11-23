@@ -146,17 +146,17 @@ Author: Victoys
 Name: 京东优惠券
 
 Package: com.victoys.kuwo
-Version: 1.3-8
+Version: 1.4-2
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 11.0), mobilesubstrate
 Filename: debs/kuwo.deb
-Size: 118924
-MD5sum: b2931bb6dfd3b8d3da6aab72a71a7d13
-SHA1: 2e72785de663cc0d218ab30349236ca103c5e04b
-SHA256: e0cc9dab8384fbd735b45d7e81d18961a90d6508398f06966e6c4347c74d009d
+Size: 132968
+MD5sum: f9c4f2bb0874ca14118aeabf966bed54
+SHA1: 335e1a9cc7ea6925e3bd0b73a98781edfb9a2b80
+SHA256: 2ac95b174dcf6c8fe2dc6bcdab0b15ddcf813a4fc0fc06ac25e93d42e0fa929e
 Section: Tweaks
-Description: 酷我音乐/酷我音乐纯净版会员全功能解锁、下载听书无限制、去广告、音乐导出
+Description: 酷我音乐解锁会员全功能、下载听书无限制、去广告、音乐导出！
 Author: Victoys
 Name: 酷我音乐
 
