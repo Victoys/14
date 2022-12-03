@@ -71,15 +71,15 @@ Author: Victoys
 Name: SuDial
 
 Package: com.victoys.alipay
-Version: 1.1-4
+Version: 1.1-3
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: mobilesubstrate
 Filename: debs/alipay.deb
-Size: 201324
-MD5sum: d073bacc73d3cb1ff65f0baac953eded
-SHA1: 5f0aa70e6e2f19d240825d4c631290ed94ee161d
-SHA256: d0793d87f8fce0cb6a14229028a7fa3175f4e3b8ca7de202af91214b13dacf7c
+Size: 111352
+MD5sum: 2751ce266af519e949afd8a619bb910d
+SHA1: da667a36ed5ab2496d1d52ff0424401da262b61b
+SHA256: 819622d5712fa079aea2a91f98df216073c604a75f3d809f93afd7e4fa305e6f
 Section: Tweaks
 Description: 支付宝屏蔽越狱状态，支持第三方插件注入，支持指纹脸部登录
 Author: Victoys
@@ -145,6 +145,21 @@ Description: 替换应用摄像头拍照的图片，让应用得到任意设置�
 Author: Victoys
 Name: 虚拟拍照
 
+Package: com.victoys.flexlist
+Version: 1.3-6.2
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader
+Filename: debs/flexlist.deb
+Size: 836292
+MD5sum: d880e594371390b301339c43378aab5f
+SHA1: 4ad3975916d2030b950234ab6407653dded44103
+SHA256: dbcf7a21113b3ad46e1c2b6b7e3fdd497f9ecced5345dd48ef9b739f8ec622cd
+Section: Tweaks
+Description: 辅助Flex定位软件函数
+Author: Victoys
+Name: FLEXList
+
 Package: com.victoys.injectipa
 Version: 1.3-2
 Architecture: iphoneos-arm
@@ -176,15 +191,15 @@ Author: Victoys
 Name: 京东优惠券
 
 Package: com.victoys.kuwo
-Version: 1.4-2
+Version: 1.4-4
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 11.0), mobilesubstrate
 Filename: debs/kuwo.deb
-Size: 132968
-MD5sum: f9c4f2bb0874ca14118aeabf966bed54
-SHA1: 335e1a9cc7ea6925e3bd0b73a98781edfb9a2b80
-SHA256: 2ac95b174dcf6c8fe2dc6bcdab0b15ddcf813a4fc0fc06ac25e93d42e0fa929e
+Size: 129028
+MD5sum: c97f852aa66dbcd42c38468acdd28146
+SHA1: 8c8debb31c9bb27a280ee2dc59f60bb9b45e4db1
+SHA256: 5c244c86caab9fd4d0038b6141181bc97316bb9ed615f657e9108e1fd8878eba
 Section: Tweaks
 Description: 酷我音乐解锁会员全功能、下载听书无限制、去广告、音乐导出！
 Author: Victoys
@@ -299,19 +314,34 @@ Author: Victoys
 Name: 淘宝优惠券
 
 Package: com.victoys.trollstore
-Version: 1.3.5
+Version: 1.4.5
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 14.0)
 Filename: debs/trollstore.deb
-Size: 214916
-MD5sum: 7f02ee9fabe981ab9b4b20f206abb39a
-SHA1: fdefc780af6f28384ad00e052b2b820caca19d67
-SHA256: 052cd9a4448a6d37d24bbbfa12200bdd06a749733dbd773ea3341e7db0eed8f4
+Size: 217224
+MD5sum: d69136bffe1083ff8141f0e0d9960007
+SHA1: 04ea4b9467f5200d8d8f1f9181b806490340f22c
+SHA256: afb72006f0aa92bab01301a0038d077480fe8995a2af8dc6060f377ec9d2a6a7
 Section: Applications
 Description: 无视IPA软件签名验证，随意安装第三方软件！
 Author: Victoys
 Name: TrollStore
+
+Package: com.victoys.trollstore135
+Version: 1.3.5
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>= 14.0)
+Filename: debs/trollstore135.deb
+Size: 215160
+MD5sum: 02c0ae8c75b32d895d95d67c5006f8b0
+SHA1: caee512a506f14b5f1fac1ff83202c93a6bcb414
+SHA256: 414037cf71294f1a1c31bfc49068877edabf9522b0bb5f8e941770489eeb749e
+Section: Applications
+Description: 1.3.5旧版本，无视IPA软件签名验证，随意安装第三方软件！
+Author: Victoys
+Name: TrollStore 135
 
 Package: science.victoys.undecimus611
 Version: 6.1.1
