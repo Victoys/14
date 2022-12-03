@@ -70,6 +70,21 @@ Description: 开启归属地、来去电震动、T9拨号
 Author: Victoys
 Name: SuDial
 
+Package: com.victoys.alipay
+Version: 1.1-4
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: mobilesubstrate
+Filename: debs/alipay.deb
+Size: 201324
+MD5sum: d073bacc73d3cb1ff65f0baac953eded
+SHA1: 5f0aa70e6e2f19d240825d4c631290ed94ee161d
+SHA256: d0793d87f8fce0cb6a14229028a7fa3175f4e3b8ca7de202af91214b13dacf7c
+Section: Tweaks
+Description: 支付宝屏蔽越狱状态，支持第三方插件注入，支持指纹脸部登录
+Author: Victoys
+Name: 支付宝屏蔽越狱
+
 Package: com.victoys.appsync
 Version: 102.0
 Architecture: iphoneos-arm
@@ -84,6 +99,21 @@ Section: Tweaks
 Description: 直接安装未签名IPA应用，iOS14系统专用
 Author: Victoys
 Name: AppSync
+
+Package: com.victoys.deletephoto
+Version: 1.2-2
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: mobilesubstrate
+Filename: debs/deletephoto.deb
+Size: 5588
+MD5sum: f52b20add3571286cf7aa1bfcb84190e
+SHA1: 38945b9c697a41b91abceaea34ec09f80b5f6715
+SHA256: 0f560cc7ce91d2b2ac001fdd0b341174fabeaaee00e6031f1f21ebb902c3d2f0
+Section: Tweaks
+Description: 相册增加直接删除照片视频功能选项
+Author: Victoys
+Name: DeletePhotos
 
 Package: com.victoys.dumpdecrypter
 Version: 1.3-7
