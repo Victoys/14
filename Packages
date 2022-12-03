@@ -71,15 +71,15 @@ Author: Victoys
 Name: SuDial
 
 Package: com.victoys.alipay
-Version: 1.1-3
+Version: 1.1-5
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: mobilesubstrate
 Filename: debs/alipay.deb
-Size: 111352
-MD5sum: 2751ce266af519e949afd8a619bb910d
-SHA1: da667a36ed5ab2496d1d52ff0424401da262b61b
-SHA256: 819622d5712fa079aea2a91f98df216073c604a75f3d809f93afd7e4fa305e6f
+Size: 94872
+MD5sum: 87fdc7d3ab076cd7d11ec60ee5fccba9
+SHA1: e388f86666e781a795644a6fe0358448d488ce6e
+SHA256: a2c0c7580b4ac22bc99cd66ca04cf51c62be81dffa10ade41738e54465d4a71e
 Section: Tweaks
 Description: 支付宝屏蔽越狱状态，支持第三方插件注入，支持指纹脸部登录
 Author: Victoys
@@ -191,15 +191,15 @@ Author: Victoys
 Name: 京东优惠券
 
 Package: com.victoys.kuwo
-Version: 1.4-4
+Version: 1.4-5
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 11.0), mobilesubstrate
 Filename: debs/kuwo.deb
-Size: 129028
-MD5sum: c97f852aa66dbcd42c38468acdd28146
-SHA1: 8c8debb31c9bb27a280ee2dc59f60bb9b45e4db1
-SHA256: 5c244c86caab9fd4d0038b6141181bc97316bb9ed615f657e9108e1fd8878eba
+Size: 142084
+MD5sum: 2954e360349744c3ed66bff1da212cfe
+SHA1: 49e4445426eb486e765ad54cc252883e40b48fb4
+SHA256: b6085183f44d5fe5b9172f5af67ff21d6cb2b496f4566bd93ac282cb8ff69969
 Section: Tweaks
 Description: 酷我音乐解锁会员全功能、下载听书无限制、去广告、音乐导出！
 Author: Victoys
