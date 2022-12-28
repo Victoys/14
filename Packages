@@ -353,6 +353,21 @@ Description: 1.3.5旧版本，无视IPA软件签名验证，随意安装第三�
 Author: Victoys
 Name: TrollStore 135
 
+Package: com.victoys.wifilist
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: mobilesubstrate
+Filename: debs/wifilist.deb
+Size: 903100
+MD5sum: 292732e3854c2d6d97205643dc83342e
+SHA1: e9ebed424fb6eb5638a6858813bff7c0d1a9577a
+SHA256: bc7547eb432bfe9c142e4bf435d2e65952bcd0cc66f9263d725eb55b6dd96bfa
+Section: Tweaks
+Description: 显示连接过的WIFI密码
+Author: Victoys
+Name: WiFi List
+
 Package: science.victoys.undecimus611
 Version: 6.1.1
 Architecture: iphoneos-arm
