@@ -309,15 +309,15 @@ Author: Victoys
 Name: System Info
 
 Package: com.victoys.tb
-Version: 3.0-0
+Version: 3.0-1
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 11.0), mobilesubstrate
 Filename: debs/tb.deb
-Size: 65376
-MD5sum: a6a9677243d9724524abb21b8faf08ad
-SHA1: 14197833b2af3cb7132e22f8f1c9f4fb9a3b8cf4
-SHA256: 4529daff68014ab55f2f4d7d898690176875d5d6c7095c5863f734d57a38f8fa
+Size: 69656
+MD5sum: 2e758be49baddde6219fe03d9eaaf399
+SHA1: 7173476a57ad3e8f3aa368177e121f07a49350b7
+SHA256: bb54b6ce47a6e809996a000a42557f2131f53ffa353659a80329a776994754e0
 Section: Tweaks
 Description: 自动显示淘宝商品历史最低价、历史最高价、内部优惠券
 Author: Victoys
